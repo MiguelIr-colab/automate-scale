@@ -264,7 +264,7 @@ export const translations = {
           'Integración con tu CRM y calendario',
         ],
         results: 'Reduce tiempo de respuesta de horas a segundos',
-        timeline: 'Implementación: 1-2 semanas',
+        timeline: 'Implementación: 3-4 semanas',
       },
       instagram: {
         title: 'Chatbots para Instagram',
@@ -284,7 +284,6 @@ export const translations = {
         description: 'Conecta tus herramientas y elimina tareas manuales repetitivas.',
         features: [
           'Sincronización entre CRM, email y calendario',
-          'Pipelines de ventas automatizados',
           'Notificaciones y alertas inteligentes',
           'Generación automática de reportes',
           'Workflows personalizados',
@@ -692,14 +691,13 @@ export const translations = {
           'Direct scheduling from Instagram',
         ],
         results: 'Leverage 100% of interactions',
-        timeline: 'Implementation: 1-2 weeks',
+        timeline: 'Implementation: 3-4 weeks',
       },
       automations: {
         title: 'Workflow Automations',
         description: 'Connect your tools and eliminate repetitive manual tasks.',
         features: [
           'Sync between CRM, email, and calendar',
-          'Automated sales pipelines',
           'Smart notifications and alerts',
           'Automatic report generation',
           'Custom workflows',
@@ -1103,14 +1101,13 @@ export const translations = {
           'Planification directe depuis Instagram',
         ],
         results: 'Exploitez 100% des interactions',
-        timeline: 'Implémentation : 1-2 semaines',
+        timeline: 'Implémentation : 3-4 semaines',
       },
       automations: {
         title: 'Automatisations de Workflows',
         description: 'Connectez vos outils et éliminez les tâches manuelles répétitives.',
         features: [
           'Synchronisation entre CRM, email et calendrier',
-          'Pipelines de vente automatisés',
           'Notifications et alertes intelligentes',
           'Génération automatique de rapports',
           'Workflows personnalisés',
@@ -1514,14 +1511,13 @@ export const translations = {
           'Direkte Terminplanung aus Instagram',
         ],
         results: 'Nutzen Sie 100% der Interaktionen',
-        timeline: 'Implementierung: 1-2 Wochen',
+        timeline: 'Implementierung: 3-4 Wochen',
       },
       automations: {
         title: 'Workflow-Automatisierungen',
         description: 'Verbinden Sie Ihre Tools und eliminieren Sie repetitive manuelle Aufgaben.',
         features: [
           'Synchronisierung zwischen CRM, E-Mail und Kalender',
-          'Automatisierte Vertriebspipelines',
           'Intelligente Benachrichtigungen und Alerts',
           'Automatische Berichtserstellung',
           'Benutzerdefinierte Workflows',
