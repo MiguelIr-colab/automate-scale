@@ -78,9 +78,12 @@ export function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            <Button variant="accent" asChild>
-              <Link to={`/${lang}/contact`}>{t.nav.cta}</Link>
-            </Button>
+            <Link 
+              to={`/${lang}/contact`}
+              className="inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 transition-all duration-300"
+            >
+              {t.nav.cta}
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -126,9 +129,13 @@ export function Header() {
                 </Link>
               ))}
             </div>
-            <Button variant="accent" className="mt-2" asChild onClick={() => setIsMenuOpen(false)}>
-              <Link to={`/${lang}/contact`}>{t.nav.cta}</Link>
-            </Button>
+            <Link 
+              to={`/${lang}/contact`}
+              onClick={() => setIsMenuOpen(false)}
+              className="mt-2 inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 transition-all duration-300"
+            >
+              {t.nav.cta}
+            </Link>
           </nav>
         </div>
       )}

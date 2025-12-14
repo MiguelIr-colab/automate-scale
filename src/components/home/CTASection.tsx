@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import { useTranslation } from '@/i18n/useTranslation';
 
 export function CTASection() {
@@ -20,12 +19,13 @@ export function CTASection() {
           <p className="text-lg text-muted-foreground mb-8">
             {t.ctaSection.subtitle}
           </p>
-          <Button variant="hero" size="xl" asChild>
-            <Link to={`/${lang}/contact`}>
-              {t.ctaSection.cta}
-              <ArrowRight className="w-5 h-5 ml-1" />
-            </Link>
-          </Button>
+          <Link 
+            to={`/${lang}/contact`}
+            className="inline-flex items-center justify-center gap-2 h-16 px-10 text-lg font-bold rounded-xl bg-gradient-to-r from-primary to-[hsl(220,91%,60%)] text-primary-foreground hover:opacity-90 shadow-xl shadow-primary/30 hover:shadow-2xl hover:shadow-primary/40 hover:-translate-y-1 transition-all duration-300"
+          >
+            {t.ctaSection.cta}
+            <ArrowRight className="w-5 h-5 ml-1" />
+          </Link>
         </div>
       </div>
     </section>
