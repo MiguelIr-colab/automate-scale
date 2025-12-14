@@ -277,7 +277,7 @@ export const translations = {
           'Agendado directo desde Instagram',
         ],
         results: 'Aprovecha el 100% de las interacciones',
-        timeline: 'Implementación: 1-2 semanas',
+        timeline: 'Implementación: 2-3 semanas',
       },
       automations: {
         title: 'Automatizaciones de Flujos',
@@ -679,7 +679,7 @@ export const translations = {
           'Integration with your CRM and calendar',
         ],
         results: 'Reduce response time from hours to seconds',
-        timeline: 'Implementation: 1-2 weeks',
+        timeline: 'Implementation: 2-3 weeks',
       },
       instagram: {
         title: 'Instagram Chatbots',
@@ -1090,7 +1090,7 @@ export const translations = {
           'Intégration avec votre CRM et calendrier',
         ],
         results: 'Réduisez le temps de réponse de heures à secondes',
-        timeline: 'Implémentation : 1-2 semaines',
+        timeline: 'Implémentation : 2-3 semaines',
       },
       instagram: {
         title: 'Chatbots Instagram',
@@ -1501,7 +1501,7 @@ export const translations = {
           'Integration mit Ihrem CRM und Kalender',
         ],
         results: 'Reduzieren Sie die Antwortzeit von Stunden auf Sekunden',
-        timeline: 'Implementierung: 1-2 Wochen',
+        timeline: 'Implementierung: 2-3 Wochen',
       },
       instagram: {
         title: 'Instagram Chatbots',
