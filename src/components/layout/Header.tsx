@@ -4,6 +4,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from '@/i18n/useTranslation';
 import { languageNames, Language, languages } from '@/i18n/translations';
+import logo from '@/assets/logo.jpg';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -36,10 +37,8 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to={`/${lang}`} className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">AI</span>
-            </div>
-            <span className="font-bold text-lg hidden sm:block">AutomateAI</span>
+            <img src={logo} alt="AIassistant Logo" className="w-8 h-8 rounded-lg object-cover" />
+            <span className="font-bold text-lg hidden sm:block">AIassistant</span>
           </Link>
 
           {/* Desktop Navigation */}
