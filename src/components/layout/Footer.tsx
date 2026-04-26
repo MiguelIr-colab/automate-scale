@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from '@/i18n/useTranslation';
 import { MessageSquare, Instagram, Linkedin, Twitter } from 'lucide-react';
+import logo from '@/assets/logo.jpg';
 
 export function Footer() {
   const { t, lang } = useTranslation();
@@ -12,10 +13,8 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to={`/${lang}`} className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">AI</span>
-              </div>
-              <span className="font-bold text-lg">AutomateAI</span>
+              <img src={logo} alt="SmartSetter IA Logo" className="w-8 h-8 rounded-lg object-cover" />
+              <span className="font-bold text-lg">SmartSetter IA</span>
             </Link>
             <p className="text-muted-foreground max-w-md mb-6">
               {t.footer.description}
