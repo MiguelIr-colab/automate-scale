@@ -57,7 +57,7 @@ export function SEOHead({ title, description, lang, type = 'website', image }: S
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          "name": "AutomateAI",
+          "name": "SmartSetter IA",
           "description": description,
           "url": baseUrl,
           "logo": `${baseUrl}/logo.png`,
