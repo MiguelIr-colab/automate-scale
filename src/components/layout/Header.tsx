@@ -37,8 +37,8 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to={`/${lang}`} className="flex items-center gap-2">
-            <img src={logo} alt="SofiAI Logo" className="w-8 h-8 rounded-lg object-cover" />
-            <span className="font-bold text-lg hidden sm:block">SofiAI</span>
+            <img src={logo} alt="SmartSetter IA Logo" className="w-8 h-8 rounded-lg object-cover" />
+            <span className="font-bold text-lg hidden sm:block">SmartSetter IA</span>
           </Link>
 
           {/* Desktop Navigation */}
