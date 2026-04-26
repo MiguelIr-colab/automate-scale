@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from '@/i18n/useTranslation';
 import { MessageSquare, Instagram, Linkedin, Twitter } from 'lucide-react';
+import logo from '@/assets/logo.jpg';
 
 export function Footer() {
   const { t, lang } = useTranslation();
