@@ -195,7 +195,7 @@ export const translations = {
       items: [
         {
           question: '¿Cuánto tiempo tarda la implementación?',
-          answer: 'Dependiendo de la complejidad, entre 1 y 3 semanas. Un chatbot básico de cualificación puede estar listo en 7 días.',
+          answer: 'Dependiendo de la complejidad, entre 4 y 6 semanas. Un chatbot básico de cualificación puede estar listo en 15 días.',
         },
         {
           question: '¿Qué necesito para empezar?',
