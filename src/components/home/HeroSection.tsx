@@ -60,7 +60,7 @@ export function HeroSection() {
             </div>
             <div className="text-center p-4 rounded-xl bg-card/50 border border-border/50 backdrop-blur-sm">
               <Clock className="w-6 h-6 text-primary mx-auto mb-2" />
-              <div className="text-2xl sm:text-3xl font-bold gradient-text">10h</div>
+              <div className="text-2xl sm:text-3xl font-bold gradient-text">10-30 h/semana</div>
               <div className="text-xs sm:text-sm text-muted-foreground">{t.hero.stats.time}</div>
             </div>
             <div className="text-center p-4 rounded-xl bg-card/50 border border-border/50 backdrop-blur-sm">
