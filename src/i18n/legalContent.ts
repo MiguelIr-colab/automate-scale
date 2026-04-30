@@ -23,7 +23,7 @@ const OWNER = {
   name: 'Miguel Ángel — SmartSetter IA',
   legal: 'Autónomo',
   address: 'Suiza',
-  email: 'contact@iassistant-bots.ch',
+  email: 'contact@aiassistant-bots.ch',
 };
 
 // ===================== ESPAÑOL =====================
