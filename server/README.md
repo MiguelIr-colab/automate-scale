@@ -50,15 +50,15 @@ Responses:
 
 ## Frontend integration (reCAPTCHA v3 example)
 
-Site key: `6LeT2swsAAAAACHoYTebfR_Yp1xaF5ZfadAPBruF`
+Site key: `6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN`
 
 ```html
-<script src="https://www.google.com/recaptcha/api.js?render=6LeT2swsAAAAACHoYTebfR_Yp1xaF5ZfadAPBruF"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN"></script>
 ```
 
 ```js
 const token = await grecaptcha.execute(
-  '6LeT2swsAAAAACHoYTebfR_Yp1xaF5ZfadAPBruF',
+  '6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN',
   { action: 'contact' }
 );
 
