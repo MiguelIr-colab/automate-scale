@@ -1,6 +1,6 @@
 # iAssistant Bots – Backend API
 
-Express server for the contact form of **iassistant-bots.ch** and **swissicoupons.com**.
+Express server for the contact form of **aiassistant-bots.ch** and **swissicoupons.com**.
 Designed to be deployed on a VPS via **Dokploy** (Docker).
 
 ## Features
@@ -9,7 +9,7 @@ Designed to be deployed on a VPS via **Dokploy** (Docker).
 - `GET /health` → healthcheck for Dokploy/Traefik
 - Google reCAPTCHA v2/v3 verification (server-side)
 - Strict rate limiting (5 requests / 15 min per IP by default)
-- CORS whitelist (only iassistant-bots.ch & swissicoupons.com)
+- CORS whitelist (only aiassistant-bots.ch & swissicoupons.com)
 - Helmet security headers
 - Honeypot + basic anti-spam validation
 - Clean error handling and structured logs
@@ -62,7 +62,7 @@ const token = await grecaptcha.execute(
   { action: 'contact' }
 );
 
-await fetch('https://api.iassistant-bots.ch/contact', {
+await fetch('https://api.aiassistant-bots.ch/contact', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
@@ -77,7 +77,7 @@ await fetch('https://api.iassistant-bots.ch/contact', {
 1. Create a new **Application** in Dokploy.
 2. Source: this repo, **Build path:** `server/` (or the subfolder containing the Dockerfile).
 3. Build type: **Dockerfile**.
-4. Domain: `api.iassistant-bots.ch` → port `8080`.
+4. Domain: `api.aiassistant-bots.ch` → port `8080`.
 5. Environment variables: copy from `.env.example` and fill them in.
 6. Healthcheck path: `/health`.
 7. Deploy.
