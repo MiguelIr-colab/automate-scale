@@ -61,7 +61,7 @@ export default function ContactPage() {
       if (window.grecaptcha) {
         try {
           recaptchaToken = await window.grecaptcha.execute(
-            import.meta.env.VITE_RECAPTCHA_SITE_KEY || '',
+            import.meta.env.VITE_RECAPTCHA_SITE_KEY || '6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN',
             { action: 'contact' }
           );
         } catch (err) {
