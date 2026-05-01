@@ -69,7 +69,7 @@ export default function ContactPage() {
         }
       }
 
-      const apiUrl = import.meta.env.VITE_API_URL || 'https://api.aiassistant-bots.ch';
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://apibots.aiassistant-bots.ch';
       
       const response = await fetch(`${apiUrl}/contact`, {
         method: 'POST',
