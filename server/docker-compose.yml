@@ -1,7 +1,6 @@
 services:
   api:
     build: .
-    container_name: iassistant-api
     restart: unless-stopped
     expose:
       - "8080"
@@ -12,10 +11,11 @@ services:
       - PORT=8080
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.iassistant-api.rule=Host(`api.aiassistant-bots.ch`)"
-      - "traefik.http.routers.iassistant-api.entrypoints=websecure"
-      - "traefik.http.routers.iassistant-api.tls.certresolver=letsencrypt"
-      - "traefik.http.services.iassistant-api.loadbalancer.server.port=8080"
+      - "traefik.http.routers.iassistant-api-secure.rule=Host(`api.aiassistant-bots.ch`)"
+      - "traefik.http.routers.iassistant-api-secure.entrypoints=websecure"
+      - "traefik.http.routers.iassistant-api-secure.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.iassistant-api-secure.service=iassistant-api-svc"
+      - "traefik.http.services.iassistant-api-svc.loadbalancer.server.port=8080"
       - "traefik.docker.network=dokploy-network"
     networks:
       - dokploy-network
