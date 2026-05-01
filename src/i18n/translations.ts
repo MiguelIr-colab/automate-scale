@@ -247,7 +247,7 @@ export const translations = {
         terms: 'Aviso Legal',
         cookies: 'Cookies',
       },
-      copyright: '© 2024 Todos los derechos reservados.',
+      copyright: '© 2026 Todos los derechos reservados.',
     },
     // Services Page
     services: {
@@ -662,7 +662,7 @@ export const translations = {
         terms: 'Legal Notice',
         cookies: 'Cookies',
       },
-      copyright: '© 2024 All rights reserved.',
+      copyright: '© 2026 All rights reserved.',
     },
     services: {
       title: 'Automation and Chatbot Services',
@@ -1072,7 +1072,7 @@ export const translations = {
         terms: 'Mentions Légales',
         cookies: 'Cookies',
       },
-      copyright: '© 2024 Tous droits réservés.',
+      copyright: '© 2026 Tous droits réservés.',
     },
     services: {
       title: 'Services d\'Automatisation et Chatbots',
@@ -1482,7 +1482,7 @@ export const translations = {
         terms: 'Impressum',
         cookies: 'Cookies',
       },
-      copyright: '© 2024 Alle Rechte vorbehalten.',
+      copyright: '© 2026 Alle Rechte vorbehalten.',
     },
     services: {
       title: 'Automatisierung und Chatbot-Services',
