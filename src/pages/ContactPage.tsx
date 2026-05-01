@@ -60,7 +60,8 @@ export default function ContactPage() {
       // Get reCAPTCHA token if available
       if (window.grecaptcha) {
         try {
-          recaptchaToken = await window.grecaptcha.execute(
+          await new Promise<void>((resolve) => window.grecaptcha!.ready(resolve));
+                    recaptchaToken = await window.grecaptcha.execute(
             import.meta.env.VITE_RECAPTCHA_SITE_KEY || '6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN',
             { action: 'contact' }
           );
