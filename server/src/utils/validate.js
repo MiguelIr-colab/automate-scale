@@ -2,7 +2,7 @@ import validator from 'validator';
 
 /**
  * Validates contact-form payload.
- * Returns { valid: boolean, errors: string[], data?: { nombre, email, mensaje } }
+ * Returns { valid: boolean, errors: string[], data?: {...} }
  */
 export function validateContactPayload(body = {}) {
   const errors = [];
@@ -12,26 +12,39 @@ export function validateContactPayload(body = {}) {
     return { valid: false, errors: ['bot-detected'] };
   }
 
-  const nombre = typeof body.nombre === 'string' ? body.nombre.trim() : '';
-  const email = typeof body.email === 'string' ? body.email.trim() : '';
-  const mensaje = typeof body.mensaje === 'string' ? body.mensaje.trim() : '';
+  const str = (v, max) => {
+    if (typeof v !== 'string') return '';
+    const t = v.trim();
+    return max ? t.slice(0, max) : t;
+  };
 
-  if (!nombre || nombre.length < 2 || nombre.length > 100) {
-    errors.push('nombre');
+  const nombre = str(body.nombre, 100);
+  const email = str(body.email, 255);
+  const mensaje = str(body.mensaje, 2000);
+  const canal = str(body.canal, 50);
+  const tipoNegocio = str(body.tipoNegocio, 100);
+  const objetivo = str(body.objetivo, 50);
+
+  if (!nombre || nombre.length < 2) errors.push('nombre');
+  if (!email || !validator.isEmail(email)) errors.push('email');
+  if (!mensaje || mensaje.length < 5) errors.push('mensaje');
+
+  // Optional whitelist checks (only if provided)
+  if (canal && !['whatsapp', 'instagram', 'both'].includes(canal)) {
+    errors.push('canal');
   }
-  if (!email || !validator.isEmail(email) || email.length > 255) {
-    errors.push('email');
-  }
-  if (!mensaje || mensaje.length < 5 || mensaje.length > 2000) {
-    errors.push('mensaje');
+  if (objetivo && !['leads', 'appointments', 'support', 'other'].includes(objetivo)) {
+    errors.push('objetivo');
   }
 
   // Anti-spam: too many URLs in the message
   const urlMatches = mensaje.match(/https?:\/\//gi) || [];
-  if (urlMatches.length > 3) {
-    errors.push('too-many-links');
-  }
+  if (urlMatches.length > 3) errors.push('too-many-links');
 
   if (errors.length) return { valid: false, errors };
-  return { valid: true, errors: [], data: { nombre, email, mensaje } };
+  return {
+    valid: true,
+    errors: [],
+    data: { nombre, email, mensaje, canal, tipoNegocio, objetivo },
+  };
 }

@@ -28,28 +28,49 @@ function escapeHtml(str = '') {
     .replace(/'/g, '&#039;');
 }
 
-export async function sendContactEmail({ nombre, email, mensaje, origin, ip }) {
+export async function sendContactEmail({
+  nombre,
+  email,
+  mensaje,
+  canal,
+  tipoNegocio,
+  objetivo,
+  origin,
+  ip,
+}) {
   const to = process.env.EMAIL_TO || process.env.EMAIL_USER;
   const from = process.env.EMAIL_FROM || process.env.EMAIL_USER;
 
-  const safeName = escapeHtml(nombre);
-  const safeEmail = escapeHtml(email);
-  const safeMsg = escapeHtml(mensaje).replace(/\n/g, '<br>');
-  const safeOrigin = escapeHtml(origin || 'unknown');
+  const safe = {
+    nombre: escapeHtml(nombre),
+    email: escapeHtml(email),
+    mensaje: escapeHtml(mensaje).replace(/\n/g, '<br>'),
+    canal: escapeHtml(canal || '-'),
+    tipoNegocio: escapeHtml(tipoNegocio || '-'),
+    objetivo: escapeHtml(objetivo || '-'),
+    origin: escapeHtml(origin || 'unknown'),
+    ip: escapeHtml(ip || ''),
+  };
 
   const html = `
     <h2>Nuevo mensaje de contacto</h2>
-    <p><strong>Nombre:</strong> ${safeName}</p>
-    <p><strong>Email:</strong> ${safeEmail}</p>
-    <p><strong>Mensaje:</strong><br>${safeMsg}</p>
+    <p><strong>Nombre:</strong> ${safe.nombre}</p>
+    <p><strong>Email:</strong> ${safe.email}</p>
+    <p><strong>Canal:</strong> ${safe.canal}</p>
+    <p><strong>Tipo de negocio:</strong> ${safe.tipoNegocio}</p>
+    <p><strong>Objetivo:</strong> ${safe.objetivo}</p>
+    <p><strong>Mensaje:</strong><br>${safe.mensaje}</p>
     <hr>
-    <p style="color:#666;font-size:12px">Origen: ${safeOrigin} · IP: ${escapeHtml(ip || '')}</p>
+    <p style="color:#666;font-size:12px">Origen: ${safe.origin} · IP: ${safe.ip}</p>
   `;
 
   const text = `Nuevo mensaje de contacto
 
 Nombre: ${nombre}
 Email: ${email}
+Canal: ${canal || '-'}
+Tipo de negocio: ${tipoNegocio || '-'}
+Objetivo: ${objetivo || '-'}
 
 Mensaje:
 ${mensaje}
