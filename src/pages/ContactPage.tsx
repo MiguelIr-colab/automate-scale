@@ -62,7 +62,7 @@ export default function ContactPage() {
         try {
           await new Promise<void>((resolve) => window.grecaptcha!.ready(resolve));
                     recaptchaToken = await window.grecaptcha.execute(
-            import.meta.env.VITE_RECAPTCHA_SITE_KEY || '6LfSMdIsAAAAALqAv_dNRvuYzzIARX61C-Ue63pN',
+            import.meta.env.VITE_RECAPTCHA_SITE_KEY || '6LeT2swsAAAAACHoYTebfR_Yp1xaF5ZfadAPBruF',
             { action: 'contact' }
           );
         } catch (err) {
