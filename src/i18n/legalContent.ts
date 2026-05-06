@@ -20,7 +20,7 @@ export interface LegalContent {
 
 // Datos del titular - personalizar
 const OWNER = {
-  name: 'Miguel Ángel — SmartSetter IA',
+  name: 'Pepito Pepote — SmartSetter IA',
   legal: 'Autónomo',
   address: 'Suiza',
   email: 'contact@aiassistant-bots.ch',

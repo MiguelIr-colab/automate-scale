@@ -9,7 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { Send, Mail, Loader2 } from 'lucide-react';
+import { Send, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 declare global {
@@ -238,13 +238,6 @@ export default function ContactPage() {
               </form>
             )}
 
-            <div className="mt-12 text-center">
-              <h3 className="font-semibold mb-4">{t.contact.alternatives.title}</h3>
-              <a href="mailto:contact@yourdomain.com" className="inline-flex items-center gap-2 text-primary hover:underline">
-                <Mail className="w-5 h-5" />
-                contact@yourdomain.com
-              </a>
-            </div>
           </div>
         </div>
       </section>
