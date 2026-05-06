@@ -9,7 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { Send, Mail, Loader2 } from 'lucide-react';
+import { Send, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 declare global {
