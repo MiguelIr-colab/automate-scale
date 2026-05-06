@@ -20,10 +20,10 @@ export interface LegalContent {
 
 // Datos del titular - personalizar
 const OWNER = {
-  name: 'Pepito Pepote — SmartSetter IA',
+  name: 'Pedro Miguel Irurzun — SmartSetter IA',
   legal: 'Autónomo',
   address: 'Suiza',
-  email: 'contact@aiassistant-bots.ch',
+  email: 'pedro.miguel.iros@gmail.com',
 };
 
 // ===================== ESPAÑOL =====================
