@@ -238,13 +238,6 @@ export default function ContactPage() {
               </form>
             )}
 
-            <div className="mt-12 text-center">
-              <h3 className="font-semibold mb-4">{t.contact.alternatives.title}</h3>
-              <a href="mailto:contact@yourdomain.com" className="inline-flex items-center gap-2 text-primary hover:underline">
-                <Mail className="w-5 h-5" />
-                contact@yourdomain.com
-              </a>
-            </div>
           </div>
         </div>
       </section>
