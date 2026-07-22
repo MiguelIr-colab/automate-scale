@@ -16,20 +16,20 @@ export const translations = {
     // Meta
     meta: {
       home: {
-        title: 'SmartSetter IA – Agente de Ventas con IA para Instagram y WhatsApp',
-        description: 'SmartSetter IA responde tus DMs de Instagram y WhatsApp, cualifica leads y agenda reuniones en tu calendario, 24/7. Regístrate y actívalo en minutos.',
+        title: 'SmartSetter IA – Agente de Ventas con IA para Instagram',
+        description: 'SmartSetter IA responde tus DMs de Instagram, cualifica leads y manda tu link de reservas para agendar, 24/7. Regístrate y actívalo hoy.',
       },
       services: {
         title: 'Cómo Funciona SmartSetter IA | Agente de Ventas 24/7',
-        description: 'Un sistema de agentes IA que responde, cualifica, hace seguimiento y agenda por ti en Instagram y WhatsApp. Así vende SmartSetter IA mientras tú te enfocas en cerrar.',
+        description: 'Un sistema de agentes IA que responde, cualifica, hace seguimiento y agenda por ti en Instagram. Así vende SmartSetter IA mientras tú te enfocas en cerrar.',
       },
       solutions: {
         title: 'Casos de Uso | Cualificación y Agendado Automático con IA',
-        description: 'Genera, cualifica y agenda leads automáticamente desde Instagram y WhatsApp. Descubre cómo creadores, coaches y agencias usan SmartSetter IA para vender sin perder tiempo.',
+        description: 'Genera, cualifica y agenda leads automáticamente desde Instagram. Descubre cómo creadores, coaches y agencias usan SmartSetter IA para vender sin perder tiempo.',
       },
       process: {
-        title: 'Proceso de Implementación | Del Diagnóstico al Mantenimiento',
-        description: 'Metodología probada en 5 pasos: diagnóstico, diseño conversacional, implementación, pruebas y mantenimiento continuo de tus automatizaciones.',
+        title: 'Cómo Empezar | De Cero a Tu Agente Vendiendo en Instagram',
+        description: '5 pasos: regístrate, conecta tu Instagram, cuéntanos tu negocio, conecta tu calendario, y tu agente empieza a vender. Sin desarrollo a medida.',
       },
       contact: {
         title: 'Contacto | Solicita Tu Auditoría de Automatización Gratuita',
@@ -41,7 +41,7 @@ export const translations = {
       home: 'Inicio',
       services: 'Producto',
       solutions: 'Casos de Uso',
-      process: 'Proceso',
+      process: 'Cómo Empezar',
       contact: 'Contacto',
       cta: 'Hablar con Nosotros',
       ctaSignup: 'Regístrate Gratis',
@@ -50,7 +50,7 @@ export const translations = {
     hero: {
       badge: 'Ya en producción',
       title: 'Convierte Conversaciones en Clientes con IA',
-      subtitle: 'SmartSetter IA es el agente que responde tus DMs de Instagram y WhatsApp, cualifica cada lead y agenda la reunión directamente en tu calendario. Sin desarrollos a medida ni meses de espera: regístrate y actívalo hoy.',
+      subtitle: 'SmartSetter IA es el agente que responde tus DMs de Instagram, cualifica cada lead y manda tu link de reservas para agendar la reunión. Sin desarrollos a medida ni meses de espera: regístrate y actívalo hoy.',
       cta: 'Habla con Nosotros',
       ctaSecondary: 'Ver Cómo Funciona',
       stats: {
@@ -74,7 +74,7 @@ export const translations = {
         },
         {
           title: 'Agendado Sin Fricción',
-          description: 'Integración directa con tu calendario. Los leads agendan citas sin necesidad de intervención humana.',
+          description: 'El agente manda tu link de reservas y el lead agenda solo, sin que nadie tenga que intervenir.',
         },
         {
           title: 'Escalabilidad Real',
@@ -98,7 +98,7 @@ export const translations = {
         {
           number: '01',
           title: 'El lead inicia conversación',
-          description: 'Por Instagram, WhatsApp o el canal que elijas. Tu agente IA responde al instante.',
+          description: 'Por Instagram, tu canal principal de ventas. Tu agente IA responde al instante.',
         },
         {
           number: '02',
@@ -113,7 +113,7 @@ export const translations = {
         {
           number: '04',
           title: 'Agendado o derivación',
-          description: 'Lead cualificado = cita agendada automáticamente en tu calendario, o derivación a tu equipo de cierre.',
+          description: 'Lead cualificado = recibe tu link de reservas para agendar solo, o derivación a tu equipo de cierre.',
         },
       ],
     },
@@ -156,7 +156,7 @@ export const translations = {
           metric: '+120% citas agendadas',
         },
         {
-          quote: 'El agente cualifica mejor que muchos humanos. Filtra perfectamente según mis criterios y agenda directamente en mi calendario.',
+          quote: 'El agente cualifica mejor que muchos humanos. Filtra perfectamente según mis criterios y manda el link de mi calendario en el momento justo.',
           author: 'Carlos R.',
           role: 'Consultor de Marketing',
           metric: '3h/día ahorradas',
@@ -175,7 +175,7 @@ export const translations = {
       isFor: {
         title: 'Esto es para ti si...',
         items: [
-          'Eres creador de contenido, coach o agencia y recibes consultas por Instagram o WhatsApp',
+          'Eres creador de contenido, coach o agencia y recibes consultas por Instagram',
           'Pierdes leads por no responder a tiempo',
           'Quieres más citas sin contratar más setters',
           'Buscas escalar sin que escalen tus horas de trabajo',
@@ -198,15 +198,15 @@ export const translations = {
       items: [
         {
           question: '¿Cuánto tarda en estar activo mi agente?',
-          answer: 'Minutos. Te registras, conectas tu cuenta de Instagram o WhatsApp Business y defines tus criterios de cualificación. No hay desarrollo a medida ni semanas de espera.',
+          answer: 'Te registras, conectas tu Instagram y tu calendario, y nos cuentas lo esencial de tu negocio. Tu agente queda operativo el mismo día, sin desarrollo a medida.',
         },
         {
           question: '¿Qué necesito para empezar?',
-          answer: 'Una cuenta de WhatsApp Business o Instagram para empresas y unos minutos para definir tus criterios de cualificación y tu calendario de citas.',
+          answer: 'Una cuenta de Instagram de empresa (vinculada a una página de Facebook) y una cuenta de Calendly para las reuniones. Te ayudamos a conectarlo todo.',
         },
         {
           question: '¿Es compatible con mi CRM/herramientas actuales?',
-          answer: 'SmartSetter IA se integra con Calendly, Google Calendar y las principales herramientas de agenda. Seguimos ampliando integraciones con CRMs externos.',
+          answer: 'SmartSetter IA se integra con Calendly y Google Calendar para el agendado. Seguimos ampliando integraciones con CRMs externos.',
         },
         {
           question: '¿Quién se encarga del mantenimiento?',
@@ -214,15 +214,15 @@ export const translations = {
         },
         {
           question: '¿Cuáles son los límites del agente?',
-          answer: 'El agente maneja conversaciones predefinidas y variaciones naturales. Para casos muy específicos o complejos, puede derivar la conversación a un humano.',
+          answer: 'El agente maneja conversaciones predefinidas y variaciones naturales. Para casos muy específicos o complejos, cede el control a un humano.',
         },
         {
           question: '¿Cómo se manejan los datos y la privacidad?',
           answer: 'Todos los datos se procesan cumpliendo RGPD. Las conversaciones se almacenan de forma segura y puedes exportar o eliminar tus datos en cualquier momento.',
         },
         {
-          question: '¿Funciona con WhatsApp personal?',
-          answer: 'Se requiere WhatsApp Business API para automatizaciones profesionales. Te guiamos en la configuración durante el registro.',
+          question: '¿Cuándo llega WhatsApp?',
+          answer: 'Es el próximo canal en el roadmap, pensado para convivir con Instagram en un mismo negocio. Si te interesa, dínoslo al registrarte y te avisamos en cuanto esté disponible.',
         },
         {
           question: '¿Puedo probarlo antes de pagar?',
@@ -242,7 +242,7 @@ export const translations = {
       links: {
         services: 'Producto',
         solutions: 'Casos de Uso',
-        process: 'Proceso',
+        process: 'Cómo Empezar',
         contact: 'Contacto',
       },
       legal: {
@@ -255,56 +255,83 @@ export const translations = {
     // Services Page
     services: {
       title: 'Cómo Funciona SmartSetter IA',
-      subtitle: 'Un agente de IA ya integrado, listo para vender por ti',
-      whatsapp: {
-        title: 'Agente en WhatsApp',
-        description: 'Tu canal más directo de comunicación, atendido 24/7 por IA.',
-        features: [
-          'Respuesta instantánea a mensajes entrantes',
-          'Cualificación de leads con preguntas estratégicas',
-          'Respuesta automática a FAQs y objeciones',
-          'Derivación inteligente a tu equipo cuando hace falta',
-          'Agendado directo en tu calendario',
+      subtitle: 'Un agente de IA ya integrado, listo para vender por ti en Instagram',
+      core: [
+        {
+          key: 'instagram',
+          title: 'Agente en Instagram',
+          description: 'Tu canal principal de ventas: responde cada DM al instante, con el contexto completo del lead.',
+          features: [
+            'Respuesta instantánea a cualquier DM, comentario o respuesta a story',
+            'Contexto completo en cada respuesta: qué se ha hablado antes, en qué punto está el lead, qué contenido ha visto',
+            'Cede el control a un humano en cuanto detecta que no sabe qué responder',
+            'Nunca interfiere si respondes tú mismo desde Instagram o desde el CRM',
+          ],
+          results: 'Cero DMs sin responder, a cualquier hora',
+          timeline: 'Tu canal principal, ya integrado',
+        },
+        {
+          key: 'followups',
+          title: 'Seguimiento Proactivo',
+          description: 'Vuelve a escribir a los leads que no contestaron, dentro de la ventana real de Instagram.',
+          features: [
+            'Toques de seguimiento automáticos dentro de las primeras 24h (la ventana que permite Instagram)',
+            'Pasado ese plazo, el lead pasa a un panel de seguimiento humano para retomarlo tú a mano',
+            'Se detiene solo en cuanto tomas el control o marcas la conversación en manual',
+            'Casos de reactivación configurables: recordatorio, oferta, cierre de conversación',
+          ],
+          results: 'Recupera conversaciones que hoy se quedan sin respuesta',
+          timeline: 'Corre solo cada 15 minutos',
+        },
+        {
+          key: 'booking',
+          title: 'Agendado con Calendly',
+          description: 'El agente manda tu link de reserva y sabe con certeza quién agendó.',
+          features: [
+            'Envía tu link de Calendly con seguimiento único por conversación',
+            'Un webhook confirma la reserva en cuanto el lead elige hora — el agente no tiene que adivinar tu disponibilidad',
+            'Si el lead no reserva en 22h, se lo recuerda automáticamente',
+            'La reunión queda vinculada a la conversación y al lead en tu panel',
+          ],
+          results: 'Sabes exactamente qué conversación generó cada reunión',
+          timeline: 'Conecta tu cuenta de Calendly en minutos',
+        },
+      ],
+      secondary: {
+        title: 'Y Además',
+        items: [
+          {
+            key: 'keywords',
+            title: 'Keywords en Comentarios',
+            description: 'Detecta palabras clave en los comentarios de tus posts y reels y manda el DM automáticamente, con respuesta pública opcional.',
+          },
+          {
+            key: 'scoring',
+            title: 'Scoring + Resumen Pre-Reunión',
+            description: 'Cuando un lead agenda, tu agente puntúa interés, intención, urgencia y disponibilidad, y te deja un resumen antes de la llamada: situación, obstáculos y lo que busca.',
+          },
+          {
+            key: 'visionGlobal',
+            title: 'Visión Global',
+            description: 'Pregúntale a tus datos en lenguaje natural: "¿qué objeción se repite más esta semana?". Solo lectura, nunca toca tus conversaciones.',
+          },
+          {
+            key: 'promptImprovement',
+            title: 'Mejora Continua del Agente',
+            description: 'Cada semana recibes sugerencias concretas para mejorar cómo vende tu agente, con una simulación de antes/después. Nada se aplica sin que lo apruebes.',
+          },
         ],
-        results: 'Reduce el tiempo de respuesta de horas a segundos',
-        timeline: 'Activo en minutos tras el registro',
       },
-      instagram: {
-        title: 'Agente en Instagram',
-        description: 'Convierte comentarios y DMs en clientes, sin perder ni una conversación.',
-        features: [
-          'Respuesta automática a DMs y menciones',
-          'Activación por palabras clave en comentarios',
-          'Filtros y cualificación de interesados',
-          'Secuencias de seguimiento automatizadas',
-          'Agendado directo desde Instagram',
+      upcoming: {
+        title: 'Próximamente',
+        subtitle: 'En construcción, para cuando tu negocio use más de un canal',
+        items: [
+          {
+            key: 'whatsapp',
+            title: 'Agente en WhatsApp',
+            description: 'El mismo agente, en WhatsApp Business, conviviendo con Instagram en un mismo negocio.',
+          },
         ],
-        results: 'Aprovecha el 100% de tus interacciones',
-        timeline: 'Activo en minutos tras el registro',
-      },
-      automations: {
-        title: 'Seguimiento Proactivo',
-        description: 'Tu agente vuelve a escribir a los leads que se enfriaron, en el momento justo.',
-        features: [
-          'Secuencias de follow-up programadas automáticamente',
-          'Reactivación inteligente de leads fríos',
-          'Notificaciones cuando un lead necesita atención humana',
-          'Análisis y scoring de cada conversación',
-        ],
-        results: 'Recupera hasta un 15% de leads que se habían enfriado',
-        timeline: 'Incluido en tu plan, sin configuración extra',
-      },
-      integrations: {
-        title: 'Agenda y Analítica',
-        description: 'Todo conectado: reuniones agendadas solas y un panel con lo que importa.',
-        features: [
-          'Integración directa con Calendly y Google Calendar',
-          'Recordatorios automáticos para reducir no-shows',
-          'Panel con métricas de conversaciones y cualificaciones',
-          'Historial completo de cada conversación',
-        ],
-        results: 'Cero coordinación manual de horarios',
-        timeline: 'Conecta tu calendario en 2 minutos',
       },
     },
     // Solutions Page
@@ -322,7 +349,7 @@ export const translations = {
         {
           title: 'Agendar Llamadas Sin Intervención',
           problem: 'El ir y venir para coordinar horarios consume horas cada semana.',
-          solution: 'Tu agente muestra disponibilidad, gestiona zonas horarias y confirma citas automáticamente.',
+          solution: 'Tu agente manda tu link de reservas de Calendly; el lead elige la hora que le va bien y un webhook confirma la cita al instante.',
           result: 'Citas agendadas 24/7 sin tu intervención. Cero no-shows con recordatorios.',
           cta: 'Pruébalo Gratis',
         },
@@ -344,43 +371,43 @@ export const translations = {
     },
     // Process Page
     process: {
-      title: 'Proceso de Implementación',
-      subtitle: 'Una metodología probada para resultados garantizados',
+      title: 'Cómo Empezar',
+      subtitle: 'De cero a tu agente vendiendo en Instagram, en el mismo día',
       steps: [
         {
           number: '01',
-          title: 'Diagnóstico',
-          description: 'Analizamos tu situación actual: canales, volumen de leads, herramientas, objetivos y métricas clave.',
-          duration: '1-2 días',
-          deliverable: 'Informe de diagnóstico + propuesta personalizada',
+          title: 'Regístrate',
+          description: 'Crea tu cuenta con los datos de tu negocio. La activamos nosotros para asegurarnos de que todo funcione bien desde el primer día.',
+          duration: '2 minutos',
+          deliverable: 'Cuenta creada, activación en curso',
         },
         {
           number: '02',
-          title: 'Diseño Conversacional',
-          description: 'Creamos los flujos de conversación, scripts, respuestas a objeciones y criterios de cualificación.',
-          duration: '3-5 días',
-          deliverable: 'Mapa de flujos + scripts aprobados',
+          title: 'Conecta tu Instagram',
+          description: 'Vinculamos tu cuenta de Instagram de empresa para que el agente pueda leer y responder tus DMs y comentarios.',
+          duration: '5 minutos',
+          deliverable: 'Cuenta de Instagram conectada',
         },
         {
           number: '03',
-          title: 'Implementación',
-          description: 'Construimos el chatbot, configuramos integraciones y conectamos con tus herramientas existentes.',
-          duration: '5-10 días',
-          deliverable: 'Bot funcional en entorno de pruebas',
+          title: 'Cuéntanos tu Negocio',
+          description: 'Nos das lo esencial — qué vendes, precio, a quién, tono, objeciones habituales — y generamos el prompt de tu agente automáticamente.',
+          duration: '10-15 minutos',
+          deliverable: 'Agente configurado con tu propio negocio',
         },
         {
           number: '04',
-          title: 'Pruebas y Optimización',
-          description: 'Testing exhaustivo, ajustes de respuestas y optimización basada en casos reales.',
-          duration: '3-5 días',
-          deliverable: 'Bot optimizado listo para producción',
+          title: 'Conecta tu Calendario',
+          description: 'Enlazamos tu cuenta de Calendly para que el agente pueda mandar tu link de reservas y confirmar citas.',
+          duration: '2 minutos',
+          deliverable: 'Agenda conectada',
         },
         {
           number: '05',
-          title: 'Lanzamiento y Mantenimiento',
-          description: 'Go-live, monitorización inicial y plan de mantenimiento continuo con mejoras mensuales.',
-          duration: 'Ongoing',
-          deliverable: 'Reportes mensuales + optimizaciones continuas',
+          title: 'Tu Agente Vende, Tú lo Afinas',
+          description: 'El agente ya responde por ti. Cada semana revisas sugerencias de mejora del prompt (las apruebas o las descartas) y ves qué conversaciones necesitan tu atención.',
+          duration: 'Continuo',
+          deliverable: 'Sugerencias semanales + panel de seguimiento',
         },
       ],
     },
@@ -441,20 +468,20 @@ export const translations = {
   en: {
     meta: {
       home: {
-        title: 'SmartSetter IA – AI Sales Agent for Instagram and WhatsApp',
-        description: 'SmartSetter IA replies to your Instagram and WhatsApp DMs, qualifies leads, and books meetings on your calendar, 24/7. Sign up and activate it in minutes.',
+        title: 'SmartSetter IA – AI Sales Agent for Instagram',
+        description: 'SmartSetter IA replies to your Instagram DMs, qualifies leads, and sends your booking link, 24/7. Sign up and activate it today.',
       },
       services: {
         title: 'How SmartSetter IA Works | Your 24/7 Sales Agent',
-        description: 'An AI agent system that replies, qualifies, follows up, and books for you on Instagram and WhatsApp. This is how SmartSetter IA sells while you focus on closing.',
+        description: 'An AI agent system that replies, qualifies, follows up, and books for you on Instagram. This is how SmartSetter IA sells while you focus on closing.',
       },
       solutions: {
         title: 'Use Cases | AI-Powered Qualification & Scheduling',
-        description: 'Generate, qualify, and schedule leads automatically from Instagram and WhatsApp. See how creators, coaches, and agencies use SmartSetter IA to sell without wasting time.',
+        description: 'Generate, qualify, and schedule leads automatically from Instagram. See how creators, coaches, and agencies use SmartSetter IA to sell without wasting time.',
       },
       process: {
-        title: 'Implementation Process | From Diagnosis to Maintenance',
-        description: 'Proven 5-step methodology: diagnosis, conversational design, implementation, testing, and continuous maintenance of your automations.',
+        title: 'Getting Started | From Zero to Your Agent Selling on Instagram',
+        description: '5 steps: sign up, connect your Instagram, tell us about your business, connect your calendar, and your agent starts selling. No custom development.',
       },
       contact: {
         title: 'Contact | Request Your Free Automation Audit',
@@ -465,7 +492,7 @@ export const translations = {
       home: 'Home',
       services: 'Product',
       solutions: 'Use Cases',
-      process: 'Process',
+      process: 'Getting Started',
       contact: 'Contact',
       cta: 'Talk To Us',
       ctaSignup: 'Sign Up Free',
@@ -473,7 +500,7 @@ export const translations = {
     hero: {
       badge: 'Live now',
       title: 'Turn Conversations Into Customers With AI',
-      subtitle: 'SmartSetter IA is the agent that replies to your Instagram and WhatsApp DMs, qualifies every lead, and books the meeting straight into your calendar. No custom development, no months of waiting: sign up and activate it today.',
+      subtitle: 'SmartSetter IA is the agent that replies to your Instagram DMs, qualifies every lead, and sends your booking link for the meeting. No custom development, no months of waiting: sign up and activate it today.',
       cta: 'Talk To Us',
       ctaSecondary: 'See How It Works',
       stats: {
@@ -496,7 +523,7 @@ export const translations = {
         },
         {
           title: 'Frictionless Scheduling',
-          description: 'Direct calendar integration. Leads book appointments without human intervention.',
+          description: 'The agent sends your booking link and the lead books it themselves — no one has to step in.',
         },
         {
           title: 'Real Scalability',
@@ -519,7 +546,7 @@ export const translations = {
         {
           number: '01',
           title: 'Lead starts conversation',
-          description: 'Via Instagram, WhatsApp, or your chosen channel. Your AI agent responds instantly.',
+          description: 'Via Instagram, your main sales channel. Your AI agent responds instantly.',
         },
         {
           number: '02',
@@ -534,7 +561,7 @@ export const translations = {
         {
           number: '04',
           title: 'Scheduling or handoff',
-          description: 'Qualified lead = automatically scheduled appointment on your calendar, or handoff to your closing team.',
+          description: 'Qualified lead = receives your booking link to schedule on their own, or handoff to your closing team.',
         },
       ],
     },
@@ -575,7 +602,7 @@ export const translations = {
           metric: '+120% appointments booked',
         },
         {
-          quote: 'The agent qualifies better than many humans. It filters perfectly according to my criteria and schedules directly in my calendar.',
+          quote: 'The agent qualifies better than many humans. It filters perfectly according to my criteria and sends my booking link at exactly the right moment.',
           author: 'Carlos R.',
           role: 'Marketing Consultant',
           metric: '3h/day saved',
@@ -593,7 +620,7 @@ export const translations = {
       isFor: {
         title: 'This is for you if...',
         items: [
-          'You\'re a content creator, coach, or agency receiving inquiries via Instagram or WhatsApp',
+          'You\'re a content creator, coach, or agency receiving inquiries via Instagram',
           'You lose leads by not responding in time',
           'You want more appointments without hiring more setters',
           'You want to scale without scaling your work hours',
@@ -615,15 +642,15 @@ export const translations = {
       items: [
         {
           question: 'How soon is my agent up and running?',
-          answer: 'Minutes. You sign up, connect your Instagram or WhatsApp Business account, and set your qualification criteria. No custom development, no weeks of waiting.',
+          answer: 'You sign up, connect your Instagram and your calendar, and tell us the essentials of your business. Your agent is operational the same day, no custom development.',
         },
         {
           question: 'What do I need to get started?',
-          answer: 'A WhatsApp Business or Instagram Business account, and a few minutes to define your qualification criteria and booking calendar.',
+          answer: 'A business Instagram account (linked to a Facebook page) and a Calendly account for meetings. We help you connect everything.',
         },
         {
           question: 'Is it compatible with my current CRM/tools?',
-          answer: 'SmartSetter IA integrates with Calendly, Google Calendar, and major scheduling tools. We\'re continuously expanding integrations with external CRMs.',
+          answer: 'SmartSetter IA integrates with Calendly and Google Calendar for scheduling. We\'re continuously expanding integrations with external CRMs.',
         },
         {
           question: 'Who handles maintenance?',
@@ -631,15 +658,15 @@ export const translations = {
         },
         {
           question: 'What are the agent\'s limitations?',
-          answer: 'The agent handles predefined conversations and natural variations. For very specific or complex cases, it can hand off the conversation to a human.',
+          answer: 'The agent handles predefined conversations and natural variations. For very specific or complex cases, it hands off control to a human.',
         },
         {
           question: 'How is data and privacy handled?',
           answer: 'All data is processed in compliance with GDPR. Conversations are stored securely and you can export or delete your data at any time.',
         },
         {
-          question: 'Does it work with personal WhatsApp?',
-          answer: 'WhatsApp Business API is required for professional automation. We guide you through setup during sign-up.',
+          question: 'When is WhatsApp coming?',
+          answer: 'It\'s the next channel on our roadmap, designed to coexist with Instagram in the same business. If you\'re interested, tell us at sign-up and we\'ll notify you when it\'s available.',
         },
         {
           question: 'Can I try it before paying?',
@@ -657,7 +684,7 @@ export const translations = {
       links: {
         services: 'Product',
         solutions: 'Use Cases',
-        process: 'Process',
+        process: 'Getting Started',
         contact: 'Contact',
       },
       legal: {
@@ -669,56 +696,83 @@ export const translations = {
     },
     services: {
       title: 'How SmartSetter IA Works',
-      subtitle: 'An AI agent already built and ready to sell for you',
-      whatsapp: {
-        title: 'WhatsApp Agent',
-        description: 'Your most direct communication channel, handled 24/7 by AI.',
-        features: [
-          'Instant response to incoming messages',
-          'Lead qualification with strategic questions',
-          'Automatic response to FAQs and objections',
-          'Smart handoff to your team when needed',
-          'Direct booking on your calendar',
+      subtitle: 'An AI agent already built and ready to sell for you on Instagram',
+      core: [
+        {
+          key: 'instagram',
+          title: 'Instagram Agent',
+          description: 'Your main sales channel: replies to every DM instantly, with full context on the lead.',
+          features: [
+            'Instant response to any DM, comment, or story reply',
+            'Full context on every reply: what was discussed before, where the lead stands, what content they\'ve seen',
+            'Hands off to a human the moment it doesn\'t know how to respond',
+            'Never interferes if you reply yourself from Instagram or the CRM',
+          ],
+          results: 'Zero unanswered DMs, any time of day',
+          timeline: 'Your main channel, already built in',
+        },
+        {
+          key: 'followups',
+          title: 'Proactive Follow-up',
+          description: 'Reaches back out to leads who didn\'t reply, within Instagram\'s real time window.',
+          features: [
+            'Automatic follow-up touches within the first 24h (the window Instagram allows)',
+            'Past that window, the lead moves to a human follow-up panel for you to pick up manually',
+            'Stops the moment you take over or mark the conversation as manual',
+            'Configurable reactivation cases: reminder, offer, closing the conversation',
+          ],
+          results: 'Recovers conversations that today go unanswered',
+          timeline: 'Runs automatically every 15 minutes',
+        },
+        {
+          key: 'booking',
+          title: 'Booking via Calendly',
+          description: 'The agent sends your booking link and knows for certain who booked.',
+          features: [
+            'Sends your Calendly link with unique tracking per conversation',
+            'A webhook confirms the booking the moment the lead picks a time — the agent never has to guess your availability',
+            'If the lead hasn\'t booked within 22h, it reminds them automatically',
+            'The meeting gets linked to the conversation and lead in your dashboard',
+          ],
+          results: 'You know exactly which conversation generated each meeting',
+          timeline: 'Connect your Calendly account in minutes',
+        },
+      ],
+      secondary: {
+        title: 'And Also',
+        items: [
+          {
+            key: 'keywords',
+            title: 'Comment Keywords',
+            description: 'Detects keywords in the comments on your posts and reels and sends the DM automatically, with an optional public reply.',
+          },
+          {
+            key: 'scoring',
+            title: 'Scoring + Pre-Meeting Brief',
+            description: 'When a lead books, your agent scores interest, intent, urgency, and availability, and leaves you a brief before the call: situation, obstacles, and what they\'re looking for.',
+          },
+          {
+            key: 'visionGlobal',
+            title: 'Global Vision',
+            description: 'Ask your data questions in plain language: "what objection came up most this week?" Read-only, never touches your conversations.',
+          },
+          {
+            key: 'promptImprovement',
+            title: 'Continuous Agent Improvement',
+            description: 'Every week you get concrete suggestions to improve how your agent sells, with a before/after simulation. Nothing applies without your approval.',
+          },
         ],
-        results: 'Reduce response time from hours to seconds',
-        timeline: 'Live within minutes of signing up',
       },
-      instagram: {
-        title: 'Instagram Agent',
-        description: 'Turn comments and DMs into customers without missing a single conversation.',
-        features: [
-          'Automatic response to DMs and mentions',
-          'Keyword activation from comments',
-          'Filtering and qualification of interested leads',
-          'Automated follow-up sequences',
-          'Direct booking from Instagram',
+      upcoming: {
+        title: 'Coming Soon',
+        subtitle: 'In progress, for when your business uses more than one channel',
+        items: [
+          {
+            key: 'whatsapp',
+            title: 'WhatsApp Agent',
+            description: 'The same agent, on WhatsApp Business, coexisting with Instagram in a single business.',
+          },
         ],
-        results: 'Capture 100% of your interactions',
-        timeline: 'Live within minutes of signing up',
-      },
-      automations: {
-        title: 'Proactive Follow-up',
-        description: 'Your agent reaches back out to leads who went cold, at exactly the right time.',
-        features: [
-          'Automatically scheduled follow-up sequences',
-          'Smart reactivation of cold leads',
-          'Alerts when a lead needs a human touch',
-          'Scoring and analysis of every conversation',
-        ],
-        results: 'Recover up to 15% of leads who went cold',
-        timeline: 'Included in your plan, no extra setup',
-      },
-      integrations: {
-        title: 'Scheduling & Analytics',
-        description: 'Everything connected: meetings book themselves and a dashboard shows what matters.',
-        features: [
-          'Direct integration with Calendly and Google Calendar',
-          'Automatic reminders to reduce no-shows',
-          'Dashboard with conversation and qualification metrics',
-          'Full history of every conversation',
-        ],
-        results: 'Zero manual schedule coordination',
-        timeline: 'Connect your calendar in 2 minutes',
       },
     },
     solutions: {
@@ -735,7 +789,7 @@ export const translations = {
         {
           title: 'Schedule Calls Without Intervention',
           problem: 'Back-and-forth to coordinate schedules consumes hours every week.',
-          solution: 'Your agent shows availability, manages time zones, and confirms appointments automatically.',
+          solution: 'Your agent sends your Calendly booking link; the lead picks a time that works and a webhook confirms the appointment instantly.',
           result: '24/7 scheduled appointments without your intervention. Zero no-shows with reminders.',
           cta: 'Try It Free',
         },
@@ -756,43 +810,43 @@ export const translations = {
       ],
     },
     process: {
-      title: 'Implementation Process',
-      subtitle: 'A proven methodology for guaranteed results',
+      title: 'Getting Started',
+      subtitle: 'From zero to your agent selling on Instagram, the same day',
       steps: [
         {
           number: '01',
-          title: 'Diagnosis',
-          description: 'We analyze your current situation: channels, lead volume, tools, objectives, and key metrics.',
-          duration: '1-2 days',
-          deliverable: 'Diagnosis report + customized proposal',
+          title: 'Sign Up',
+          description: 'Create your account with your business details. We activate it ourselves to make sure everything works well from day one.',
+          duration: '2 minutes',
+          deliverable: 'Account created, activation in progress',
         },
         {
           number: '02',
-          title: 'Conversational Design',
-          description: 'We create conversation flows, scripts, objection responses, and qualification criteria.',
-          duration: '3-5 days',
-          deliverable: 'Flow map + approved scripts',
+          title: 'Connect Your Instagram',
+          description: 'We link your business Instagram account so the agent can read and reply to your DMs and comments.',
+          duration: '5 minutes',
+          deliverable: 'Instagram account connected',
         },
         {
           number: '03',
-          title: 'Implementation',
-          description: 'We build the chatbot, configure integrations, and connect with your existing tools.',
-          duration: '5-10 days',
-          deliverable: 'Functional bot in test environment',
+          title: 'Tell Us About Your Business',
+          description: 'You give us the essentials — what you sell, price, who to, tone, common objections — and we generate your agent\'s prompt automatically.',
+          duration: '10-15 minutes',
+          deliverable: 'Agent configured with your own business',
         },
         {
           number: '04',
-          title: 'Testing and Optimization',
-          description: 'Exhaustive testing, response adjustments, and optimization based on real cases.',
-          duration: '3-5 days',
-          deliverable: 'Optimized bot ready for production',
+          title: 'Connect Your Calendar',
+          description: 'We link your Calendly account so the agent can send your booking link and confirm meetings.',
+          duration: '2 minutes',
+          deliverable: 'Calendar connected',
         },
         {
           number: '05',
-          title: 'Launch and Maintenance',
-          description: 'Go-live, initial monitoring, and continuous maintenance plan with monthly improvements.',
+          title: 'Your Agent Sells, You Fine-Tune It',
+          description: 'The agent is already replying for you. Every week you review prompt improvement suggestions (approve or dismiss them) and see which conversations need your attention.',
           duration: 'Ongoing',
-          deliverable: 'Monthly reports + continuous optimizations',
+          deliverable: 'Weekly suggestions + follow-up dashboard',
         },
       ],
     },
@@ -851,20 +905,20 @@ export const translations = {
   fr: {
     meta: {
       home: {
-        title: 'SmartSetter IA – Agent de Vente IA pour Instagram et WhatsApp',
-        description: 'SmartSetter IA répond à vos DMs Instagram et WhatsApp, qualifie les leads et planifie des RDV dans votre agenda, 24/7. Inscrivez-vous et activez-le en quelques minutes.',
+        title: 'SmartSetter IA – Agent de Vente IA pour Instagram',
+        description: 'SmartSetter IA répond à vos DMs Instagram, qualifie les leads et envoie votre lien de réservation, 24/7. Inscrivez-vous et activez-le dès aujourd\'hui.',
       },
       services: {
         title: 'Comment Fonctionne SmartSetter IA | Votre Agent de Vente 24/7',
-        description: 'Un système d\'agents IA qui répond, qualifie, relance et planifie pour vous sur Instagram et WhatsApp. Voici comment SmartSetter IA vend pendant que vous vous concentrez sur le closing.',
+        description: 'Un système d\'agents IA qui répond, qualifie, relance et planifie pour vous sur Instagram. Voici comment SmartSetter IA vend pendant que vous vous concentrez sur le closing.',
       },
       solutions: {
         title: 'Cas d\'Usage | Qualification et Prise de RDV par IA',
-        description: 'Générez, qualifiez et planifiez des leads automatiquement depuis Instagram et WhatsApp. Découvrez comment créateurs, coachs et agences utilisent SmartSetter IA pour vendre sans perdre de temps.',
+        description: 'Générez, qualifiez et planifiez des leads automatiquement depuis Instagram. Découvrez comment créateurs, coachs et agences utilisent SmartSetter IA pour vendre sans perdre de temps.',
       },
       process: {
-        title: 'Processus d\'Implémentation | Du Diagnostic à la Maintenance',
-        description: 'Méthodologie éprouvée en 5 étapes : diagnostic, design conversationnel, implémentation, tests et maintenance continue de vos automatisations.',
+        title: 'Comment Commencer | De Zéro à Votre Agent qui Vend sur Instagram',
+        description: '5 étapes : inscrivez-vous, connectez votre Instagram, parlez-nous de votre business, connectez votre agenda, et votre agent commence à vendre. Sans développement sur mesure.',
       },
       contact: {
         title: 'Contact | Demandez Votre Audit d\'Automatisation Gratuit',
@@ -875,7 +929,7 @@ export const translations = {
       home: 'Accueil',
       services: 'Produit',
       solutions: 'Cas d\'Usage',
-      process: 'Processus',
+      process: 'Comment Commencer',
       contact: 'Contact',
       cta: 'Nous Contacter',
       ctaSignup: 'Inscription Gratuite',
@@ -883,7 +937,7 @@ export const translations = {
     hero: {
       badge: 'Déjà en production',
       title: 'Transformez les Conversations en Clients avec l\'IA',
-      subtitle: 'SmartSetter IA est l\'agent qui répond à vos DMs Instagram et WhatsApp, qualifie chaque lead et planifie le RDV directement dans votre agenda. Sans développement sur mesure ni mois d\'attente : inscrivez-vous et activez-le dès aujourd\'hui.',
+      subtitle: 'SmartSetter IA est l\'agent qui répond à vos DMs Instagram, qualifie chaque lead et envoie votre lien de réservation pour le RDV. Sans développement sur mesure ni mois d\'attente : inscrivez-vous et activez-le dès aujourd\'hui.',
       cta: 'Nous Contacter',
       ctaSecondary: 'Voir Comment Ça Marche',
       stats: {
@@ -906,7 +960,7 @@ export const translations = {
         },
         {
           title: 'Planification Sans Friction',
-          description: 'Intégration directe avec votre calendrier. Les leads prennent RDV sans intervention humaine.',
+          description: 'L\'agent envoie votre lien de réservation et le lead planifie lui-même, sans qu\'personne n\'ait à intervenir.',
         },
         {
           title: 'Scalabilité Réelle',
@@ -929,7 +983,7 @@ export const translations = {
         {
           number: '01',
           title: 'Le lead démarre la conversation',
-          description: 'Via Instagram, WhatsApp ou le canal de votre choix. Votre agent IA répond instantanément.',
+          description: 'Via Instagram, votre canal de vente principal. Votre agent IA répond instantanément.',
         },
         {
           number: '02',
@@ -944,7 +998,7 @@ export const translations = {
         {
           number: '04',
           title: 'Planification ou transfert',
-          description: 'Lead qualifié = RDV planifié automatiquement dans votre agenda, ou transfert à votre équipe de closing.',
+          description: 'Lead qualifié = reçoit votre lien de réservation pour planifier lui-même, ou transfert à votre équipe de closing.',
         },
       ],
     },
@@ -985,7 +1039,7 @@ export const translations = {
           metric: '+120% RDV planifiés',
         },
         {
-          quote: 'L\'agent qualifie mieux que beaucoup d\'humains. Il filtre parfaitement selon mes critères et planifie directement dans mon agenda.',
+          quote: 'L\'agent qualifie mieux que beaucoup d\'humains. Il filtre parfaitement selon mes critères et envoie mon lien de réservation au bon moment.',
           author: 'Charles R.',
           role: 'Consultant Marketing',
           metric: '3h/jour économisées',
@@ -1003,7 +1057,7 @@ export const translations = {
       isFor: {
         title: 'C\'est pour vous si...',
         items: [
-          'Vous êtes créateur de contenu, coach ou agence et recevez des demandes via Instagram ou WhatsApp',
+          'Vous êtes créateur de contenu, coach ou agence et recevez des demandes via Instagram',
           'Vous perdez des leads en ne répondant pas à temps',
           'Vous voulez plus de RDV sans embaucher plus de setters',
           'Vous voulez scaler sans augmenter vos heures de travail',
@@ -1025,15 +1079,15 @@ export const translations = {
       items: [
         {
           question: 'En combien de temps mon agent est-il actif ?',
-          answer: 'Quelques minutes. Vous vous inscrivez, connectez votre compte Instagram ou WhatsApp Business et définissez vos critères de qualification. Pas de développement sur mesure, pas de semaines d\'attente.',
+          answer: 'Vous vous inscrivez, connectez votre Instagram et votre agenda, et nous parlez de l\'essentiel de votre business. Votre agent est opérationnel le jour même, sans développement sur mesure.',
         },
         {
           question: 'De quoi ai-je besoin pour commencer ?',
-          answer: 'Un compte WhatsApp Business ou Instagram Business, et quelques minutes pour définir vos critères de qualification et votre agenda.',
+          answer: 'Un compte Instagram professionnel (lié à une page Facebook) et un compte Calendly pour les RDV. Nous vous aidons à tout connecter.',
         },
         {
           question: 'Est-ce compatible avec mon CRM/outils actuels ?',
-          answer: 'SmartSetter IA s\'intègre avec Calendly, Google Calendar et les principaux outils d\'agenda. Nous élargissons continuellement les intégrations avec des CRM externes.',
+          answer: 'SmartSetter IA s\'intègre avec Calendly et Google Calendar pour la planification. Nous élargissons continuellement les intégrations avec des CRM externes.',
         },
         {
           question: 'Qui gère la maintenance ?',
@@ -1041,15 +1095,15 @@ export const translations = {
         },
         {
           question: 'Quelles sont les limites de l\'agent ?',
-          answer: 'L\'agent gère les conversations prédéfinies et variations naturelles. Pour les cas très spécifiques ou complexes, il peut transférer la conversation à un humain.',
+          answer: 'L\'agent gère les conversations prédéfinies et variations naturelles. Pour les cas très spécifiques ou complexes, il transfère le contrôle à un humain.',
         },
         {
           question: 'Comment sont gérées les données et la confidentialité ?',
           answer: 'Toutes les données sont traitées en conformité RGPD. Les conversations sont stockées de façon sécurisée et vous pouvez exporter ou supprimer vos données à tout moment.',
         },
         {
-          question: 'Ça fonctionne avec WhatsApp personnel ?',
-          answer: 'L\'API WhatsApp Business est requise pour l\'automatisation professionnelle. Nous vous accompagnons dans la configuration lors de l\'inscription.',
+          question: 'Quand arrive WhatsApp ?',
+          answer: 'C\'est le prochain canal sur notre roadmap, pensé pour coexister avec Instagram dans un même business. Si ça vous intéresse, dites-le nous à l\'inscription et nous vous préviendrons dès sa disponibilité.',
         },
         {
           question: 'Puis-je l\'essayer avant de payer ?',
@@ -1067,7 +1121,7 @@ export const translations = {
       links: {
         services: 'Produit',
         solutions: 'Cas d\'Usage',
-        process: 'Processus',
+        process: 'Comment Commencer',
         contact: 'Contact',
       },
       legal: {
@@ -1079,56 +1133,83 @@ export const translations = {
     },
     services: {
       title: 'Comment Fonctionne SmartSetter IA',
-      subtitle: 'Un agent IA déjà en place, prêt à vendre pour vous',
-      whatsapp: {
-        title: 'Agent WhatsApp',
-        description: 'Votre canal de communication le plus direct, géré 24/7 par l\'IA.',
-        features: [
-          'Réponse instantanée aux messages entrants',
-          'Qualification des leads avec questions stratégiques',
-          'Réponse automatique aux FAQs et objections',
-          'Transfert intelligent vers votre équipe quand nécessaire',
-          'Prise de RDV directe dans votre agenda',
+      subtitle: 'Un agent IA déjà en place, prêt à vendre pour vous sur Instagram',
+      core: [
+        {
+          key: 'instagram',
+          title: 'Agent Instagram',
+          description: 'Votre canal de vente principal : répond à chaque DM instantanément, avec le contexte complet du lead.',
+          features: [
+            'Réponse instantanée à tout DM, commentaire ou réponse à une story',
+            'Contexte complet à chaque réponse : ce qui a été dit avant, où en est le lead, quel contenu il a vu',
+            'Transfère à un humain dès qu\'il ne sait pas quoi répondre',
+            'N\'interfère jamais si vous répondez vous-même depuis Instagram ou le CRM',
+          ],
+          results: 'Zéro DM sans réponse, à toute heure',
+          timeline: 'Votre canal principal, déjà intégré',
+        },
+        {
+          key: 'followups',
+          title: 'Suivi Proactif',
+          description: 'Relance les leads qui n\'ont pas répondu, dans la vraie fenêtre temporelle d\'Instagram.',
+          features: [
+            'Relances automatiques dans les premières 24h (la fenêtre autorisée par Instagram)',
+            'Passé ce délai, le lead passe dans un panneau de suivi humain que vous reprenez à la main',
+            'S\'arrête dès que vous reprenez la main ou passez la conversation en manuel',
+            'Cas de réactivation configurables : rappel, offre, clôture de la conversation',
+          ],
+          results: 'Récupère des conversations qui aujourd\'hui restent sans réponse',
+          timeline: 'Tourne automatiquement toutes les 15 minutes',
+        },
+        {
+          key: 'booking',
+          title: 'Prise de RDV via Calendly',
+          description: 'L\'agent envoie votre lien de réservation et sait avec certitude qui a réservé.',
+          features: [
+            'Envoie votre lien Calendly avec un suivi unique par conversation',
+            'Un webhook confirme la réservation dès que le lead choisit un horaire — l\'agent n\'a jamais à deviner votre disponibilité',
+            'Si le lead n\'a pas réservé sous 22h, un rappel automatique lui est envoyé',
+            'Le RDV est lié à la conversation et au lead dans votre tableau de bord',
+          ],
+          results: 'Vous savez exactement quelle conversation a généré chaque RDV',
+          timeline: 'Connectez votre compte Calendly en quelques minutes',
+        },
+      ],
+      secondary: {
+        title: 'Et Aussi',
+        items: [
+          {
+            key: 'keywords',
+            title: 'Mots-Clés en Commentaire',
+            description: 'Détecte des mots-clés dans les commentaires de vos posts et reels et envoie le DM automatiquement, avec réponse publique optionnelle.',
+          },
+          {
+            key: 'scoring',
+            title: 'Scoring + Résumé Pré-RDV',
+            description: 'Quand un lead réserve, votre agent note l\'intérêt, l\'intention, l\'urgence et la disponibilité, et vous laisse un résumé avant l\'appel : situation, obstacles et ce qu\'il recherche.',
+          },
+          {
+            key: 'visionGlobal',
+            title: 'Vision Globale',
+            description: 'Posez des questions à vos données en langage naturel : "quelle objection revient le plus cette semaine ?". Lecture seule, ne touche jamais à vos conversations.',
+          },
+          {
+            key: 'promptImprovement',
+            title: 'Amélioration Continue de l\'Agent',
+            description: 'Chaque semaine, vous recevez des suggestions concrètes pour améliorer la façon dont votre agent vend, avec une simulation avant/après. Rien ne s\'applique sans votre validation.',
+          },
         ],
-        results: 'Réduisez le temps de réponse de heures à secondes',
-        timeline: 'Actif quelques minutes après l\'inscription',
       },
-      instagram: {
-        title: 'Agent Instagram',
-        description: 'Transformez commentaires et DMs en clients, sans perdre une seule conversation.',
-        features: [
-          'Réponse automatique aux DMs et mentions',
-          'Activation par mots-clés dans les commentaires',
-          'Filtres et qualification des intéressés',
-          'Séquences de suivi automatisées',
-          'Prise de RDV directe depuis Instagram',
+      upcoming: {
+        title: 'Bientôt Disponible',
+        subtitle: 'En cours de construction, pour quand votre business utilise plus d\'un canal',
+        items: [
+          {
+            key: 'whatsapp',
+            title: 'Agent WhatsApp',
+            description: 'Le même agent, sur WhatsApp Business, coexistant avec Instagram dans un même business.',
+          },
         ],
-        results: 'Exploitez 100% de vos interactions',
-        timeline: 'Actif quelques minutes après l\'inscription',
-      },
-      automations: {
-        title: 'Suivi Proactif',
-        description: 'Votre agent relance les leads qui se sont refroidis, au moment idéal.',
-        features: [
-          'Séquences de relance programmées automatiquement',
-          'Réactivation intelligente des leads froids',
-          'Alertes quand un lead a besoin d\'une intervention humaine',
-          'Analyse et scoring de chaque conversation',
-        ],
-        results: 'Réactivez jusqu\'à 15% des leads refroidis',
-        timeline: 'Inclus dans votre abonnement, sans configuration',
-      },
-      integrations: {
-        title: 'Agenda et Analytique',
-        description: 'Tout est connecté : les RDV se planifient seuls et un tableau de bord montre l\'essentiel.',
-        features: [
-          'Intégration directe avec Calendly et Google Calendar',
-          'Rappels automatiques pour réduire les no-shows',
-          'Tableau de bord avec métriques de conversations et qualifications',
-          'Historique complet de chaque conversation',
-        ],
-        results: 'Zéro coordination manuelle des horaires',
-        timeline: 'Connectez votre agenda en 2 minutes',
       },
     },
     solutions: {
@@ -1145,7 +1226,7 @@ export const translations = {
         {
           title: 'Planifier des Appels Sans Intervention',
           problem: 'Les allers-retours pour coordonner les horaires consomment des heures chaque semaine.',
-          solution: 'Votre agent affiche les disponibilités, gère les fuseaux horaires et confirme les RDV automatiquement.',
+          solution: 'Votre agent envoie votre lien de réservation Calendly ; le lead choisit un horaire qui lui convient et un webhook confirme le RDV instantanément.',
           result: 'RDV planifiés 24/7 sans votre intervention. Zéro no-shows avec rappels.',
           cta: 'Essayer Gratuitement',
         },
@@ -1166,43 +1247,43 @@ export const translations = {
       ],
     },
     process: {
-      title: 'Processus d\'Implémentation',
-      subtitle: 'Une méthodologie éprouvée pour des résultats garantis',
+      title: 'Comment Commencer',
+      subtitle: 'De zéro à votre agent qui vend sur Instagram, le jour même',
       steps: [
         {
           number: '01',
-          title: 'Diagnostic',
-          description: 'Nous analysons votre situation actuelle : canaux, volume de leads, outils, objectifs et métriques clés.',
-          duration: '1-2 jours',
-          deliverable: 'Rapport de diagnostic + proposition personnalisée',
+          title: 'Inscrivez-vous',
+          description: 'Créez votre compte avec les informations de votre business. Nous l\'activons nous-mêmes pour nous assurer que tout fonctionne bien dès le premier jour.',
+          duration: '2 minutes',
+          deliverable: 'Compte créé, activation en cours',
         },
         {
           number: '02',
-          title: 'Design Conversationnel',
-          description: 'Nous créons les flux de conversation, scripts, réponses aux objections et critères de qualification.',
-          duration: '3-5 jours',
-          deliverable: 'Carte des flux + scripts approuvés',
+          title: 'Connectez Votre Instagram',
+          description: 'Nous lions votre compte Instagram professionnel pour que l\'agent puisse lire et répondre à vos DMs et commentaires.',
+          duration: '5 minutes',
+          deliverable: 'Compte Instagram connecté',
         },
         {
           number: '03',
-          title: 'Implémentation',
-          description: 'Nous construisons le chatbot, configurons les intégrations et connectons à vos outils existants.',
-          duration: '5-10 jours',
-          deliverable: 'Bot fonctionnel en environnement de test',
+          title: 'Parlez-Nous de Votre Business',
+          description: 'Vous nous donnez l\'essentiel — ce que vous vendez, le prix, à qui, le ton, les objections habituelles — et nous générons automatiquement le prompt de votre agent.',
+          duration: '10-15 minutes',
+          deliverable: 'Agent configuré avec votre propre business',
         },
         {
           number: '04',
-          title: 'Tests et Optimisation',
-          description: 'Tests exhaustifs, ajustements des réponses et optimisation basée sur des cas réels.',
-          duration: '3-5 jours',
-          deliverable: 'Bot optimisé prêt pour la production',
+          title: 'Connectez Votre Agenda',
+          description: 'Nous lions votre compte Calendly pour que l\'agent puisse envoyer votre lien de réservation et confirmer les RDV.',
+          duration: '2 minutes',
+          deliverable: 'Agenda connecté',
         },
         {
           number: '05',
-          title: 'Lancement et Maintenance',
-          description: 'Mise en production, monitoring initial et plan de maintenance continue avec améliorations mensuelles.',
+          title: 'Votre Agent Vend, Vous l\'Affinez',
+          description: 'L\'agent répond déjà pour vous. Chaque semaine, vous examinez des suggestions d\'amélioration du prompt (acceptez ou rejetez-les) et voyez quelles conversations ont besoin de votre attention.',
           duration: 'Continu',
-          deliverable: 'Rapports mensuels + optimisations continues',
+          deliverable: 'Suggestions hebdomadaires + tableau de suivi',
         },
       ],
     },
@@ -1261,20 +1342,20 @@ export const translations = {
   de: {
     meta: {
       home: {
-        title: 'SmartSetter IA – KI-Vertriebsagent für Instagram und WhatsApp',
-        description: 'SmartSetter IA beantwortet Ihre Instagram- und WhatsApp-DMs, qualifiziert Leads und plant Termine in Ihrem Kalender, 24/7. Registrieren Sie sich und aktivieren Sie ihn in Minuten.',
+        title: 'SmartSetter IA – KI-Vertriebsagent für Instagram',
+        description: 'SmartSetter IA beantwortet Ihre Instagram-DMs, qualifiziert Leads und sendet Ihren Buchungslink, 24/7. Registrieren Sie sich und aktivieren Sie ihn noch heute.',
       },
       services: {
         title: 'So Funktioniert SmartSetter IA | Ihr 24/7-Vertriebsagent',
-        description: 'Ein System aus KI-Agenten, das für Sie auf Instagram und WhatsApp antwortet, qualifiziert, nachfasst und Termine plant. So verkauft SmartSetter IA, während Sie sich aufs Abschließen konzentrieren.',
+        description: 'Ein System aus KI-Agenten, das für Sie auf Instagram antwortet, qualifiziert, nachfasst und Termine plant. So verkauft SmartSetter IA, während Sie sich aufs Abschließen konzentrieren.',
       },
       solutions: {
         title: 'Anwendungsfälle | Qualifizierung und Terminplanung mit KI',
-        description: 'Generieren, qualifizieren und planen Sie Leads automatisch von Instagram und WhatsApp. Erfahren Sie, wie Creator, Coaches und Agenturen SmartSetter IA nutzen, um ohne Zeitverlust zu verkaufen.',
+        description: 'Generieren, qualifizieren und planen Sie Leads automatisch von Instagram. Erfahren Sie, wie Creator, Coaches und Agenturen SmartSetter IA nutzen, um ohne Zeitverlust zu verkaufen.',
       },
       process: {
-        title: 'Implementierungsprozess | Von der Diagnose zur Wartung',
-        description: 'Bewährte 5-Schritte-Methodik: Diagnose, Konversationsdesign, Implementierung, Tests und kontinuierliche Wartung Ihrer Automatisierungen.',
+        title: 'Erste Schritte | Von Null zum Verkaufenden Agenten auf Instagram',
+        description: '5 Schritte: registrieren, Instagram verbinden, uns von Ihrem Business erzählen, Kalender verbinden, und Ihr Agent beginnt zu verkaufen. Ohne individuelle Entwicklung.',
       },
       contact: {
         title: 'Kontakt | Fordern Sie Ihr kostenloses Automatisierungs-Audit an',
@@ -1285,7 +1366,7 @@ export const translations = {
       home: 'Startseite',
       services: 'Produkt',
       solutions: 'Anwendungsfälle',
-      process: 'Prozess',
+      process: 'Erste Schritte',
       contact: 'Kontakt',
       cta: 'Kontaktieren Sie Uns',
       ctaSignup: 'Kostenlos Registrieren',
@@ -1293,7 +1374,7 @@ export const translations = {
     hero: {
       badge: 'Bereits im Einsatz',
       title: 'Verwandeln Sie Gespräche in Kunden mit KI',
-      subtitle: 'SmartSetter IA ist der Agent, der Ihre Instagram- und WhatsApp-DMs beantwortet, jeden Lead qualifiziert und den Termin direkt in Ihrem Kalender plant. Ohne individuelle Entwicklung, ohne monatelange Wartezeit: Registrieren Sie sich und aktivieren Sie ihn noch heute.',
+      subtitle: 'SmartSetter IA ist der Agent, der Ihre Instagram-DMs beantwortet, jeden Lead qualifiziert und Ihren Buchungslink für den Termin sendet. Ohne individuelle Entwicklung, ohne monatelange Wartezeit: Registrieren Sie sich und aktivieren Sie ihn noch heute.',
       cta: 'Kontaktieren Sie Uns',
       ctaSecondary: 'Sehen Sie wie es funktioniert',
       stats: {
@@ -1316,7 +1397,7 @@ export const translations = {
         },
         {
           title: 'Reibungslose Terminplanung',
-          description: 'Direkte Kalenderintegration. Leads buchen Termine ohne menschliches Eingreifen.',
+          description: 'Der Agent sendet Ihren Buchungslink und der Lead bucht selbst — niemand muss eingreifen.',
         },
         {
           title: 'Echte Skalierbarkeit',
@@ -1339,7 +1420,7 @@ export const translations = {
         {
           number: '01',
           title: 'Lead startet Gespräch',
-          description: 'Über Instagram, WhatsApp oder Ihren gewählten Kanal. Ihr KI-Agent antwortet sofort.',
+          description: 'Über Instagram, Ihren wichtigsten Vertriebskanal. Ihr KI-Agent antwortet sofort.',
         },
         {
           number: '02',
@@ -1354,7 +1435,7 @@ export const translations = {
         {
           number: '04',
           title: 'Terminplanung oder Übergabe',
-          description: 'Qualifizierter Lead = automatisch geplanter Termin in Ihrem Kalender oder Übergabe an Ihr Closing-Team.',
+          description: 'Qualifizierter Lead = erhält Ihren Buchungslink, um selbst einen Termin zu planen, oder Übergabe an Ihr Closing-Team.',
         },
       ],
     },
@@ -1395,7 +1476,7 @@ export const translations = {
           metric: '+120% gebuchte Termine',
         },
         {
-          quote: 'Der Agent qualifiziert besser als viele Menschen. Er filtert perfekt nach meinen Kriterien und plant direkt in meinen Kalender.',
+          quote: 'Der Agent qualifiziert besser als viele Menschen. Er filtert perfekt nach meinen Kriterien und sendet meinen Buchungslink genau im richtigen Moment.',
           author: 'Karl R.',
           role: 'Marketing Berater',
           metric: '3h/Tag gespart',
@@ -1413,7 +1494,7 @@ export const translations = {
       isFor: {
         title: 'Das ist für Sie, wenn...',
         items: [
-          'Sie Content Creator, Coach oder Agentur sind und Anfragen über Instagram oder WhatsApp erhalten',
+          'Sie Content Creator, Coach oder Agentur sind und Anfragen über Instagram erhalten',
           'Sie Leads verlieren, weil Sie nicht rechtzeitig antworten',
           'Sie mehr Termine wollen, ohne mehr Setter einzustellen',
           'Sie skalieren möchten, ohne Ihre Arbeitsstunden zu erhöhen',
@@ -1435,15 +1516,15 @@ export const translations = {
       items: [
         {
           question: 'Wie schnell ist mein Agent einsatzbereit?',
-          answer: 'Minuten. Sie registrieren sich, verbinden Ihr Instagram- oder WhatsApp-Business-Konto und legen Ihre Qualifizierungskriterien fest. Keine individuelle Entwicklung, keine Wochen Wartezeit.',
+          answer: 'Sie registrieren sich, verbinden Ihr Instagram und Ihren Kalender und erzählen uns das Wesentliche über Ihr Business. Ihr Agent ist noch am selben Tag einsatzbereit, ohne individuelle Entwicklung.',
         },
         {
           question: 'Was brauche ich zum Starten?',
-          answer: 'Ein WhatsApp Business- oder Instagram-Business-Konto und ein paar Minuten, um Ihre Qualifizierungskriterien und Ihren Terminkalender festzulegen.',
+          answer: 'Ein geschäftliches Instagram-Konto (verknüpft mit einer Facebook-Seite) und ein Calendly-Konto für Termine. Wir helfen Ihnen, alles zu verbinden.',
         },
         {
           question: 'Ist es mit meinem aktuellen CRM/Tools kompatibel?',
-          answer: 'SmartSetter IA integriert sich mit Calendly, Google Calendar und den wichtigsten Terminplanungs-Tools. Wir erweitern die Integrationen mit externen CRMs laufend.',
+          answer: 'SmartSetter IA integriert sich mit Calendly und Google Calendar für die Terminplanung. Wir erweitern die Integrationen mit externen CRMs laufend.',
         },
         {
           question: 'Wer kümmert sich um die Wartung?',
@@ -1451,15 +1532,15 @@ export const translations = {
         },
         {
           question: 'Was sind die Grenzen des Agenten?',
-          answer: 'Der Agent verarbeitet vordefinierte Gespräche und natürliche Variationen. Bei sehr spezifischen oder komplexen Fällen kann er das Gespräch an einen Menschen übergeben.',
+          answer: 'Der Agent verarbeitet vordefinierte Gespräche und natürliche Variationen. Bei sehr spezifischen oder komplexen Fällen übergibt er die Kontrolle an einen Menschen.',
         },
         {
           question: 'Wie werden Daten und Datenschutz gehandhabt?',
           answer: 'Alle Daten werden DSGVO-konform verarbeitet. Gespräche werden sicher gespeichert und Sie können Ihre Daten jederzeit exportieren oder löschen.',
         },
         {
-          question: 'Funktioniert es mit persönlichem WhatsApp?',
-          answer: 'Die WhatsApp Business API ist für professionelle Automatisierung erforderlich. Wir begleiten Sie bei der Einrichtung während der Registrierung.',
+          question: 'Wann kommt WhatsApp?',
+          answer: 'Das ist der nächste Kanal auf unserer Roadmap, gedacht für die Koexistenz mit Instagram im selben Business. Wenn Sie daran interessiert sind, sagen Sie es uns bei der Registrierung und wir informieren Sie, sobald es verfügbar ist.',
         },
         {
           question: 'Kann ich es testen, bevor ich bezahle?',
@@ -1477,7 +1558,7 @@ export const translations = {
       links: {
         services: 'Produkt',
         solutions: 'Anwendungsfälle',
-        process: 'Prozess',
+        process: 'Erste Schritte',
         contact: 'Kontakt',
       },
       legal: {
@@ -1489,56 +1570,83 @@ export const translations = {
     },
     services: {
       title: 'So Funktioniert SmartSetter IA',
-      subtitle: 'Ein KI-Agent, der bereits läuft und für Sie verkauft',
-      whatsapp: {
-        title: 'WhatsApp-Agent',
-        description: 'Ihr direktester Kommunikationskanal, 24/7 von KI betreut.',
-        features: [
-          'Sofortige Antwort auf eingehende Nachrichten',
-          'Lead-Qualifizierung mit strategischen Fragen',
-          'Automatische Antwort auf FAQs und Einwände',
-          'Intelligente Übergabe an Ihr Team, wenn nötig',
-          'Direkte Terminbuchung in Ihrem Kalender',
+      subtitle: 'Ein KI-Agent, der bereits läuft und für Sie auf Instagram verkauft',
+      core: [
+        {
+          key: 'instagram',
+          title: 'Instagram-Agent',
+          description: 'Ihr wichtigster Vertriebskanal: beantwortet jede DM sofort, mit vollem Kontext zum Lead.',
+          features: [
+            'Sofortige Antwort auf jede DM, jeden Kommentar oder jede Story-Antwort',
+            'Voller Kontext bei jeder Antwort: was vorher besprochen wurde, wo der Lead steht, welchen Inhalt er gesehen hat',
+            'Übergibt an einen Menschen, sobald er nicht weiß, was er antworten soll',
+            'Greift nie ein, wenn Sie selbst über Instagram oder das CRM antworten',
+          ],
+          results: 'Keine unbeantwortete DM, zu jeder Uhrzeit',
+          timeline: 'Ihr wichtigster Kanal, schon eingebaut',
+        },
+        {
+          key: 'followups',
+          title: 'Proaktives Follow-up',
+          description: 'Meldet sich bei Leads zurück, die nicht geantwortet haben, innerhalb des echten Zeitfensters von Instagram.',
+          features: [
+            'Automatische Follow-up-Nachrichten innerhalb der ersten 24h (das von Instagram erlaubte Zeitfenster)',
+            'Nach diesem Zeitfenster wechselt der Lead in ein Panel für manuelles Follow-up, das Sie selbst übernehmen',
+            'Stoppt, sobald Sie die Kontrolle übernehmen oder das Gespräch auf manuell setzen',
+            'Konfigurierbare Reaktivierungsfälle: Erinnerung, Angebot, Abschluss des Gesprächs',
+          ],
+          results: 'Rettet Gespräche, die heute unbeantwortet bleiben',
+          timeline: 'Läuft automatisch alle 15 Minuten',
+        },
+        {
+          key: 'booking',
+          title: 'Terminbuchung über Calendly',
+          description: 'Der Agent sendet Ihren Buchungslink und weiß mit Sicherheit, wer gebucht hat.',
+          features: [
+            'Sendet Ihren Calendly-Link mit eindeutiger Nachverfolgung pro Gespräch',
+            'Ein Webhook bestätigt die Buchung, sobald der Lead eine Uhrzeit wählt — der Agent muss Ihre Verfügbarkeit nie erraten',
+            'Wenn der Lead innerhalb von 22h nicht gebucht hat, wird automatisch erinnert',
+            'Der Termin wird in Ihrem Dashboard mit dem Gespräch und dem Lead verknüpft',
+          ],
+          results: 'Sie wissen genau, welches Gespräch zu welchem Termin geführt hat',
+          timeline: 'Verbinden Sie Ihr Calendly-Konto in wenigen Minuten',
+        },
+      ],
+      secondary: {
+        title: 'Und Außerdem',
+        items: [
+          {
+            key: 'keywords',
+            title: 'Keywords in Kommentaren',
+            description: 'Erkennt Schlüsselwörter in den Kommentaren Ihrer Posts und Reels und sendet automatisch die DM, mit optionaler öffentlicher Antwort.',
+          },
+          {
+            key: 'scoring',
+            title: 'Scoring + Termin-Briefing',
+            description: 'Wenn ein Lead bucht, bewertet Ihr Agent Interesse, Absicht, Dringlichkeit und Verfügbarkeit und hinterlässt Ihnen vor dem Anruf ein Briefing: Situation, Hindernisse und was gesucht wird.',
+          },
+          {
+            key: 'visionGlobal',
+            title: 'Globale Vision',
+            description: 'Stellen Sie Ihren Daten Fragen in natürlicher Sprache: "Welcher Einwand kam diese Woche am häufigsten vor?" Nur lesend, greift nie in Ihre Gespräche ein.',
+          },
+          {
+            key: 'promptImprovement',
+            title: 'Kontinuierliche Verbesserung des Agenten',
+            description: 'Jede Woche erhalten Sie konkrete Vorschläge, wie Ihr Agent besser verkaufen kann, mit einer Vorher/Nachher-Simulation. Nichts wird ohne Ihre Zustimmung übernommen.',
+          },
         ],
-        results: 'Reduzieren Sie die Antwortzeit von Stunden auf Sekunden',
-        timeline: 'Aktiv wenige Minuten nach der Registrierung',
       },
-      instagram: {
-        title: 'Instagram-Agent',
-        description: 'Verwandeln Sie Kommentare und DMs in Kunden, ohne ein einziges Gespräch zu verpassen.',
-        features: [
-          'Automatische Antwort auf DMs und Erwähnungen',
-          'Keyword-Aktivierung aus Kommentaren',
-          'Filter und Qualifizierung von Interessenten',
-          'Automatisierte Follow-up-Sequenzen',
-          'Direkte Terminbuchung aus Instagram',
+      upcoming: {
+        title: 'Demnächst',
+        subtitle: 'In Arbeit, für wenn Ihr Business mehr als einen Kanal nutzt',
+        items: [
+          {
+            key: 'whatsapp',
+            title: 'WhatsApp-Agent',
+            description: 'Derselbe Agent, auf WhatsApp Business, im selben Business neben Instagram.',
+          },
         ],
-        results: 'Nutzen Sie 100% Ihrer Interaktionen',
-        timeline: 'Aktiv wenige Minuten nach der Registrierung',
-      },
-      automations: {
-        title: 'Proaktives Follow-up',
-        description: 'Ihr Agent meldet sich bei abgekühlten Leads genau zum richtigen Zeitpunkt zurück.',
-        features: [
-          'Automatisch geplante Follow-up-Sequenzen',
-          'Intelligente Reaktivierung kalter Leads',
-          'Benachrichtigungen, wenn ein Lead menschliche Betreuung braucht',
-          'Analyse und Scoring jedes Gesprächs',
-        ],
-        results: 'Reaktivieren Sie bis zu 15% der abgekühlten Leads',
-        timeline: 'Im Plan enthalten, ohne zusätzliche Einrichtung',
-      },
-      integrations: {
-        title: 'Terminplanung und Analytik',
-        description: 'Alles verbunden: Termine planen sich von selbst und ein Dashboard zeigt, was zählt.',
-        features: [
-          'Direkte Integration mit Calendly und Google Calendar',
-          'Automatische Erinnerungen zur Reduzierung von No-Shows',
-          'Dashboard mit Gesprächs- und Qualifizierungsmetriken',
-          'Vollständige Historie jedes Gesprächs',
-        ],
-        results: 'Keine manuelle Terminkoordination mehr',
-        timeline: 'Verbinden Sie Ihren Kalender in 2 Minuten',
       },
     },
     solutions: {
@@ -1555,7 +1663,7 @@ export const translations = {
         {
           title: 'Anrufe Ohne Eingreifen Planen',
           problem: 'Das Hin-und-Her zur Terminkoordination kostet jede Woche Stunden.',
-          solution: 'Ihr Agent zeigt Verfügbarkeit an, verwaltet Zeitzonen und bestätigt Termine automatisch.',
+          solution: 'Ihr Agent sendet Ihren Calendly-Buchungslink; der Lead wählt eine passende Uhrzeit und ein Webhook bestätigt den Termin sofort.',
           result: '24/7 geplante Termine ohne Ihr Eingreifen. Null No-Shows mit Erinnerungen.',
           cta: 'Kostenlos Testen',
         },
@@ -1576,43 +1684,43 @@ export const translations = {
       ],
     },
     process: {
-      title: 'Implementierungsprozess',
-      subtitle: 'Eine bewährte Methodik für garantierte Ergebnisse',
+      title: 'Erste Schritte',
+      subtitle: 'Von Null zum verkaufenden Agenten auf Instagram, noch am selben Tag',
       steps: [
         {
           number: '01',
-          title: 'Diagnose',
-          description: 'Wir analysieren Ihre aktuelle Situation: Kanäle, Lead-Volumen, Tools, Ziele und Schlüsselmetriken.',
-          duration: '1-2 Tage',
-          deliverable: 'Diagnosebericht + maßgeschneiderter Vorschlag',
+          title: 'Registrieren',
+          description: 'Erstellen Sie Ihr Konto mit den Daten Ihres Business. Wir aktivieren es selbst, um sicherzustellen, dass von Tag eins an alles funktioniert.',
+          duration: '2 Minuten',
+          deliverable: 'Konto erstellt, Aktivierung läuft',
         },
         {
           number: '02',
-          title: 'Konversationsdesign',
-          description: 'Wir erstellen Gesprächsabläufe, Skripte, Antworten auf Einwände und Qualifizierungskriterien.',
-          duration: '3-5 Tage',
-          deliverable: 'Ablaufkarte + genehmigte Skripte',
+          title: 'Instagram Verbinden',
+          description: 'Wir verknüpfen Ihr geschäftliches Instagram-Konto, damit der Agent Ihre DMs und Kommentare lesen und beantworten kann.',
+          duration: '5 Minuten',
+          deliverable: 'Instagram-Konto verbunden',
         },
         {
           number: '03',
-          title: 'Implementierung',
-          description: 'Wir bauen den Chatbot, konfigurieren Integrationen und verbinden mit Ihren bestehenden Tools.',
-          duration: '5-10 Tage',
-          deliverable: 'Funktionsfähiger Bot in Testumgebung',
+          title: 'Erzählen Sie Uns von Ihrem Business',
+          description: 'Sie geben uns das Wesentliche — was Sie verkaufen, Preis, an wen, Tonfall, übliche Einwände — und wir generieren automatisch den Prompt Ihres Agenten.',
+          duration: '10-15 Minuten',
+          deliverable: 'Agent mit Ihrem eigenen Business konfiguriert',
         },
         {
           number: '04',
-          title: 'Tests und Optimierung',
-          description: 'Umfassende Tests, Anpassung der Antworten und Optimierung basierend auf realen Fällen.',
-          duration: '3-5 Tage',
-          deliverable: 'Optimierter Bot bereit für Produktion',
+          title: 'Kalender Verbinden',
+          description: 'Wir verknüpfen Ihr Calendly-Konto, damit der Agent Ihren Buchungslink senden und Termine bestätigen kann.',
+          duration: '2 Minuten',
+          deliverable: 'Kalender verbunden',
         },
         {
           number: '05',
-          title: 'Start und Wartung',
-          description: 'Go-live, initiales Monitoring und kontinuierlicher Wartungsplan mit monatlichen Verbesserungen.',
+          title: 'Ihr Agent Verkauft, Sie Feilen Nach',
+          description: 'Der Agent antwortet bereits für Sie. Jede Woche prüfen Sie Vorschläge zur Prompt-Verbesserung (annehmen oder ablehnen) und sehen, welche Gespräche Ihre Aufmerksamkeit brauchen.',
           duration: 'Laufend',
-          deliverable: 'Monatliche Berichte + kontinuierliche Optimierungen',
+          deliverable: 'Wöchentliche Vorschläge + Follow-up-Dashboard',
         },
       ],
     },
