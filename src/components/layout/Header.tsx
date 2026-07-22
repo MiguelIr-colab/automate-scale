@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from '@/i18n/useTranslation';
-import { languageNames, Language, languages } from '@/i18n/translations';
+import { languageNames, Language, languages, SIGNUP_URL } from '@/i18n/translations';
 import logo from '@/assets/logo.jpg';
 import {
   DropdownMenu,
@@ -77,12 +77,20 @@ export function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link 
+            <Link
               to={`/${lang}/contact`}
-              className="inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 transition-all duration-300"
+              className="inline-flex items-center justify-center h-11 px-5 font-semibold rounded-lg border border-border text-foreground hover:bg-secondary transition-all duration-300"
             >
               {t.nav.cta}
             </Link>
+            <a
+              href={SIGNUP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 transition-all duration-300"
+            >
+              {t.nav.ctaSignup}
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -128,13 +136,22 @@ export function Header() {
                 </Link>
               ))}
             </div>
-            <Link 
+            <Link
               to={`/${lang}/contact`}
               onClick={() => setIsMenuOpen(false)}
-              className="mt-2 inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 transition-all duration-300"
+              className="mt-2 inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg border border-border text-foreground transition-all duration-300"
             >
               {t.nav.cta}
             </Link>
+            <a
+              href={SIGNUP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+              className="inline-flex items-center justify-center h-11 px-6 font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/25 transition-all duration-300"
+            >
+              {t.nav.ctaSignup}
+            </a>
           </nav>
         </div>
       )}
