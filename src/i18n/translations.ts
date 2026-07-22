@@ -9,7 +9,7 @@ export const languageNames: Record<Language, string> = {
   de: 'Deutsch',
 };
 
-export const SIGNUP_URL = 'https://crm.aiassistan-bots.ch';
+export const SIGNUP_URL = 'https://crm.aiassistant-bots.ch';
 
 export const translations = {
   es: {
