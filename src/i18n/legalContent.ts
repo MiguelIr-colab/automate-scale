@@ -57,14 +57,14 @@ const es: LegalContent = {
       {
         heading: '1. Elegibilidad',
         body: [
-          'Debes tener al menos 18 años y estar autorizado para actuar en nombre del negocio cuya cuenta profesional de Instagram y página de Facebook conectas al Servicio. Si usas el Servicio en nombre de una organización, declaras tener autoridad para vincularla a estos Términos.',
+          'Debes tener al menos 18 años y estar autorizado para actuar en nombre del negocio cuya cuenta profesional de Instagram conectas al Servicio. Si usas el Servicio en nombre de una organización, declaras tener autoridad para vincularla a estos Términos.',
         ],
       },
       {
         heading: '2. Descripción del Servicio',
         body: [
           'El Servicio permite al Cliente:',
-          '- Conectar una cuenta profesional/empresarial de Instagram vinculada a una página de Facebook.',
+          '- Conectar una cuenta profesional/empresarial de Instagram directamente (Instagram Login).',
           '- Configurar agentes de IA que responden automáticamente a comentarios, mensajes directos y respuestas a historias.',
           '- Configurar palabras clave que activan respuestas automáticas en comentarios.',
           '- Programar mensajes de seguimiento y, opcionalmente, conectar Calendly para reservar citas.',
@@ -76,7 +76,7 @@ const es: LegalContent = {
         heading: '3. Cuenta y acceso',
         body: [
           'Eres responsable de mantener la confidencialidad de tus credenciales de acceso y de toda actividad realizada bajo tu cuenta.',
-          'Debes ser titular, o estar debidamente autorizado a administrar, la cuenta de Instagram y la página de Facebook que conectas.',
+          'Debes ser titular, o estar debidamente autorizado a administrar, la cuenta de Instagram que conectas.',
           'Podemos suspender o restringir el acceso si detectamos uso fraudulento, incumplimiento de estos Términos, o infracción de las Condiciones de la Plataforma de Meta o las Normas de la Comunidad de Instagram.',
         ],
       },
@@ -340,14 +340,14 @@ const en: LegalContent = {
       {
         heading: '1. Eligibility',
         body: [
-          'You must be at least 18 years old and authorized to act on behalf of the business whose Instagram professional account and Facebook Page you connect to the Service. If you use the Service on behalf of an organization, you represent that you have authority to bind it to these Terms.',
+          'You must be at least 18 years old and authorized to act on behalf of the business whose Instagram professional account you connect to the Service. If you use the Service on behalf of an organization, you represent that you have authority to bind it to these Terms.',
         ],
       },
       {
         heading: '2. Description of the Service',
         body: [
           'The Service allows the Client to:',
-          '- Connect an Instagram professional/business account linked to a Facebook Page.',
+          '- Connect an Instagram professional/business account directly (Instagram Login).',
           '- Configure AI agents that automatically reply to comments, direct messages, and story replies.',
           '- Configure keyword triggers for automated comment replies.',
           '- Schedule follow-up messages and, optionally, connect Calendly to book appointments.',
@@ -359,7 +359,7 @@ const en: LegalContent = {
         heading: '3. Account & access',
         body: [
           'You are responsible for the confidentiality of your login credentials and for all activity under your account.',
-          'You must be the account holder of, or duly authorized to manage, the Instagram account and Facebook Page you connect.',
+          'You must be the account holder of, or duly authorized to manage, the Instagram account you connect.',
           'We may suspend or restrict access if we detect fraudulent use, a violation of these Terms, or a violation of Meta\'s Platform Terms or Instagram\'s Community Guidelines.',
         ],
       },
@@ -623,14 +623,14 @@ const fr: LegalContent = {
       {
         heading: '1. Éligibilité',
         body: [
-          "Vous devez être âgé d'au moins 18 ans et autorisé à agir pour le compte de l'entreprise dont vous connectez le compte professionnel Instagram et la page Facebook au Service. Si vous utilisez le Service pour une organisation, vous déclarez avoir le pouvoir de l'engager par ces Conditions.",
+          "Vous devez être âgé d'au moins 18 ans et autorisé à agir pour le compte de l'entreprise dont vous connectez le compte professionnel Instagram au Service. Si vous utilisez le Service pour une organisation, vous déclarez avoir le pouvoir de l'engager par ces Conditions.",
         ],
       },
       {
         heading: '2. Description du Service',
         body: [
           'Le Service permet au Client de :',
-          '- Connecter un compte professionnel Instagram lié à une page Facebook.',
+          '- Connecter un compte professionnel Instagram directement (Instagram Login).',
           "- Configurer des agents d'IA qui répondent automatiquement aux commentaires, messages directs et réponses aux stories.",
           '- Configurer des mots-clés déclenchant des réponses automatiques aux commentaires.',
           '- Planifier des relances et, en option, connecter Calendly pour réserver des rendez-vous.',
@@ -642,7 +642,7 @@ const fr: LegalContent = {
         heading: '3. Compte et accès',
         body: [
           'Vous êtes responsable de la confidentialité de vos identifiants et de toute activité sous votre compte.',
-          'Vous devez être titulaire, ou dûment autorisé à administrer, le compte Instagram et la page Facebook connectés.',
+          'Vous devez être titulaire, ou dûment autorisé à administrer, le compte Instagram connecté.',
           "Nous pouvons suspendre ou restreindre l'accès en cas d'utilisation frauduleuse, de violation des présentes Conditions, ou de violation des Conditions de la Plateforme Meta ou des Règles de la communauté Instagram.",
         ],
       },
@@ -896,14 +896,14 @@ const de: LegalContent = {
       {
         heading: '1. Anspruchsberechtigung',
         body: [
-          'Sie müssen mindestens 18 Jahre alt und berechtigt sein, im Namen des Unternehmens zu handeln, dessen Instagram-Konto und Facebook-Seite Sie verbinden.',
+          'Sie müssen mindestens 18 Jahre alt und berechtigt sein, im Namen des Unternehmens zu handeln, dessen Instagram-Konto Sie verbinden.',
         ],
       },
       {
         heading: '2. Beschreibung des Dienstes',
         body: [
           'Der Dienst ermöglicht dem Kunden:',
-          '- Ein professionelles Instagram-Konto mit einer Facebook-Seite zu verbinden.',
+          '- Ein professionelles Instagram-Konto direkt zu verbinden (Instagram Login).',
           '- KI-Agenten zu konfigurieren, die automatisch auf Kommentare, Direktnachrichten und Story-Antworten reagieren.',
           '- Schlüsselwörter für automatische Kommentarantworten zu konfigurieren.',
           '- Follow-ups zu planen und optional Calendly für Terminbuchungen zu verbinden.',
@@ -915,7 +915,7 @@ const de: LegalContent = {
         heading: '3. Konto und Zugang',
         body: [
           'Sie sind für die Vertraulichkeit Ihrer Zugangsdaten verantwortlich.',
-          'Sie müssen Inhaber des verbundenen Instagram-Kontos und der Facebook-Seite sein oder zu deren Verwaltung berechtigt sein.',
+          'Sie müssen Inhaber des verbundenen Instagram-Kontos sein oder zu dessen Verwaltung berechtigt sein.',
           'Wir können den Zugang bei Missbrauch oder Verstoss gegen diese Bedingungen oder die Meta-Richtlinien sperren.',
         ],
       },
