@@ -202,7 +202,7 @@ export const translations = {
         },
         {
           question: '¿Qué necesito para empezar?',
-          answer: 'Una cuenta de Instagram de empresa (vinculada a una página de Facebook) y una cuenta de Calendly para las reuniones. Te ayudamos a conectarlo todo.',
+          answer: 'Una cuenta profesional de Instagram (de empresa o de creador) y una cuenta de Calendly para las reuniones. Te ayudamos a conectarlo todo.',
         },
         {
           question: '¿Es compatible con mi CRM/herramientas actuales?',
@@ -221,8 +221,8 @@ export const translations = {
           answer: 'Todos los datos se procesan cumpliendo RGPD. Las conversaciones se almacenan de forma segura y puedes exportar o eliminar tus datos en cualquier momento.',
         },
         {
-          question: '¿Cuándo llega WhatsApp?',
-          answer: 'Es el próximo canal en el roadmap, pensado para convivir con Instagram en un mismo negocio. Si te interesa, dínoslo al registrarte y te avisamos en cuanto esté disponible.',
+          question: '¿Funciona con WhatsApp?',
+          answer: 'Sí, en beta privada y como módulo aparte. Conectas tu propio número de WhatsApp Business mediante la plataforma oficial de Meta y, desde el mismo panel, ves y respondes los mensajes que te llegan y gestionas tus plantillas de mensaje. El acceso es por invitación: escríbenos si quieres entrar.',
         },
         {
           question: '¿Puedo probarlo antes de pagar?',
@@ -250,7 +250,9 @@ export const translations = {
         terms: 'Aviso Legal',
         cookies: 'Cookies',
       },
-      copyright: '© 2026 Todos los derechos reservados.',
+      copyright: '© 2026 Pedro Irurzun — SmartSetter IA. Todos los derechos reservados.',
+      operator: 'SmartSetter IA es un servicio de Pedro Irurzun (nombre comercial: Miguel Ingeniería IA), autónomo (empresario individual) con sede en Zúrich, Suiza.',
+      contactLabel: 'Contacto',
     },
     // Services Page
     services: {
@@ -323,13 +325,13 @@ export const translations = {
         ],
       },
       upcoming: {
-        title: 'Próximamente',
-        subtitle: 'En construcción, para cuando tu negocio use más de un canal',
+        title: 'WhatsApp · Beta privada',
+        subtitle: 'Módulo aparte, disponible por invitación',
         items: [
           {
             key: 'whatsapp',
-            title: 'Agente en WhatsApp',
-            description: 'El mismo agente, en WhatsApp Business, conviviendo con Instagram en un mismo negocio.',
+            title: 'WhatsApp Business en tu panel',
+            description: 'Conecta el número de WhatsApp Business de tu negocio mediante la plataforma oficial de Meta (WhatsApp Business Platform). Recibe y responde los mensajes desde la misma bandeja que Instagram y crea y gestiona tus plantillas de mensaje.',
           },
         ],
       },
@@ -646,7 +648,7 @@ export const translations = {
         },
         {
           question: 'What do I need to get started?',
-          answer: 'A business Instagram account (linked to a Facebook page) and a Calendly account for meetings. We help you connect everything.',
+          answer: 'A professional Instagram account (business or creator) and a Calendly account for meetings. We help you connect everything.',
         },
         {
           question: 'Is it compatible with my current CRM/tools?',
@@ -665,8 +667,8 @@ export const translations = {
           answer: 'All data is processed in compliance with GDPR. Conversations are stored securely and you can export or delete your data at any time.',
         },
         {
-          question: 'When is WhatsApp coming?',
-          answer: 'It\'s the next channel on our roadmap, designed to coexist with Instagram in the same business. If you\'re interested, tell us at sign-up and we\'ll notify you when it\'s available.',
+          question: 'Does it work with WhatsApp?',
+          answer: 'Yes, in private beta and as a separate module. You connect your own WhatsApp Business number through Meta\'s official platform and, from the same dashboard, read and reply to incoming messages and manage your message templates. Access is by invitation: contact us if you\'d like to join.',
         },
         {
           question: 'Can I try it before paying?',
@@ -692,7 +694,9 @@ export const translations = {
         terms: 'Legal Notice',
         cookies: 'Cookies',
       },
-      copyright: '© 2026 All rights reserved.',
+      copyright: '© 2026 Pedro Irurzun — SmartSetter IA. All rights reserved.',
+      operator: 'SmartSetter IA is a service operated by Pedro Irurzun (trading as Miguel Ingeniería IA), a sole proprietorship based in Zurich, Switzerland.',
+      contactLabel: 'Contact',
     },
     services: {
       title: 'How SmartSetter IA Works',
@@ -764,13 +768,13 @@ export const translations = {
         ],
       },
       upcoming: {
-        title: 'Coming Soon',
-        subtitle: 'In progress, for when your business uses more than one channel',
+        title: 'WhatsApp · Private beta',
+        subtitle: 'Separate module, available by invitation',
         items: [
           {
             key: 'whatsapp',
-            title: 'WhatsApp Agent',
-            description: 'The same agent, on WhatsApp Business, coexisting with Instagram in a single business.',
+            title: 'WhatsApp Business in your dashboard',
+            description: 'Connect your business\'s WhatsApp Business number through Meta\'s official WhatsApp Business Platform. Receive and reply to messages from the same inbox as Instagram, and create and manage your message templates.',
           },
         ],
       },
@@ -1083,7 +1087,7 @@ export const translations = {
         },
         {
           question: 'De quoi ai-je besoin pour commencer ?',
-          answer: 'Un compte Instagram professionnel (lié à une page Facebook) et un compte Calendly pour les RDV. Nous vous aidons à tout connecter.',
+          answer: 'Un compte Instagram professionnel (entreprise ou créateur) et un compte Calendly pour les RDV. Nous vous aidons à tout connecter.',
         },
         {
           question: 'Est-ce compatible avec mon CRM/outils actuels ?',
@@ -1102,8 +1106,8 @@ export const translations = {
           answer: 'Toutes les données sont traitées en conformité RGPD. Les conversations sont stockées de façon sécurisée et vous pouvez exporter ou supprimer vos données à tout moment.',
         },
         {
-          question: 'Quand arrive WhatsApp ?',
-          answer: 'C\'est le prochain canal sur notre roadmap, pensé pour coexister avec Instagram dans un même business. Si ça vous intéresse, dites-le nous à l\'inscription et nous vous préviendrons dès sa disponibilité.',
+          question: 'Est-ce que ça fonctionne avec WhatsApp ?',
+          answer: 'Oui, en bêta privée et en tant que module séparé. Vous connectez votre propre numéro WhatsApp Business via la plateforme officielle de Meta et, depuis le même tableau de bord, vous lisez les messages reçus, y répondez et gérez vos modèles de message. L\'accès se fait sur invitation : contactez-nous si vous souhaitez participer.',
         },
         {
           question: 'Puis-je l\'essayer avant de payer ?',
@@ -1129,7 +1133,9 @@ export const translations = {
         terms: 'Mentions Légales',
         cookies: 'Cookies',
       },
-      copyright: '© 2026 Tous droits réservés.',
+      copyright: '© 2026 Pedro Irurzun — SmartSetter IA. Tous droits réservés.',
+      operator: 'SmartSetter IA est un service exploité par Pedro Irurzun (nom commercial : Miguel Ingeniería IA), entrepreneur individuel établi à Zurich, Suisse.',
+      contactLabel: 'Contact',
     },
     services: {
       title: 'Comment Fonctionne SmartSetter IA',
@@ -1201,13 +1207,13 @@ export const translations = {
         ],
       },
       upcoming: {
-        title: 'Bientôt Disponible',
-        subtitle: 'En cours de construction, pour quand votre business utilise plus d\'un canal',
+        title: 'WhatsApp · Bêta privée',
+        subtitle: 'Module séparé, disponible sur invitation',
         items: [
           {
             key: 'whatsapp',
-            title: 'Agent WhatsApp',
-            description: 'Le même agent, sur WhatsApp Business, coexistant avec Instagram dans un même business.',
+            title: 'WhatsApp Business dans votre tableau de bord',
+            description: 'Connectez le numéro WhatsApp Business de votre entreprise via la plateforme officielle de Meta (WhatsApp Business Platform). Recevez les messages et répondez-y depuis la même boîte de réception qu\'Instagram, et créez et gérez vos modèles de message.',
           },
         ],
       },
@@ -1520,7 +1526,7 @@ export const translations = {
         },
         {
           question: 'Was brauche ich zum Starten?',
-          answer: 'Ein geschäftliches Instagram-Konto (verknüpft mit einer Facebook-Seite) und ein Calendly-Konto für Termine. Wir helfen Ihnen, alles zu verbinden.',
+          answer: 'Ein professionelles Instagram-Konto (Business oder Creator) und ein Calendly-Konto für Termine. Wir helfen Ihnen, alles zu verbinden.',
         },
         {
           question: 'Ist es mit meinem aktuellen CRM/Tools kompatibel?',
@@ -1539,8 +1545,8 @@ export const translations = {
           answer: 'Alle Daten werden DSGVO-konform verarbeitet. Gespräche werden sicher gespeichert und Sie können Ihre Daten jederzeit exportieren oder löschen.',
         },
         {
-          question: 'Wann kommt WhatsApp?',
-          answer: 'Das ist der nächste Kanal auf unserer Roadmap, gedacht für die Koexistenz mit Instagram im selben Business. Wenn Sie daran interessiert sind, sagen Sie es uns bei der Registrierung und wir informieren Sie, sobald es verfügbar ist.',
+          question: 'Funktioniert es mit WhatsApp?',
+          answer: 'Ja, in einer privaten Beta und als separates Modul. Sie verbinden Ihre eigene WhatsApp-Business-Nummer über die offizielle Plattform von Meta und lesen und beantworten eingehende Nachrichten im selben Dashboard und verwalten Ihre Nachrichtenvorlagen. Der Zugang erfolgt auf Einladung: Schreiben Sie uns, wenn Sie teilnehmen möchten.',
         },
         {
           question: 'Kann ich es testen, bevor ich bezahle?',
@@ -1566,7 +1572,9 @@ export const translations = {
         terms: 'Impressum',
         cookies: 'Cookies',
       },
-      copyright: '© 2026 Alle Rechte vorbehalten.',
+      copyright: '© 2026 Pedro Irurzun — SmartSetter IA. Alle Rechte vorbehalten.',
+      operator: 'SmartSetter IA ist ein Dienst von Pedro Irurzun (Handelsname: Miguel Ingeniería IA), Einzelunternehmer mit Sitz in Zürich, Schweiz.',
+      contactLabel: 'Kontakt',
     },
     services: {
       title: 'So Funktioniert SmartSetter IA',
@@ -1638,13 +1646,13 @@ export const translations = {
         ],
       },
       upcoming: {
-        title: 'Demnächst',
-        subtitle: 'In Arbeit, für wenn Ihr Business mehr als einen Kanal nutzt',
+        title: 'WhatsApp · Private Beta',
+        subtitle: 'Separates Modul, auf Einladung verfügbar',
         items: [
           {
             key: 'whatsapp',
-            title: 'WhatsApp-Agent',
-            description: 'Derselbe Agent, auf WhatsApp Business, im selben Business neben Instagram.',
+            title: 'WhatsApp Business in Ihrem Dashboard',
+            description: 'Verbinden Sie die WhatsApp-Business-Nummer Ihres Unternehmens über die offizielle WhatsApp Business Platform von Meta. Empfangen und beantworten Sie Nachrichten im selben Posteingang wie Instagram und erstellen und verwalten Sie Ihre Nachrichtenvorlagen.',
           },
         ],
       },

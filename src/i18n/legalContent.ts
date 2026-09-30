@@ -50,7 +50,7 @@ const OWNER = {
 const es: LegalContent = {
   terms: {
     title: 'Términos de servicio',
-    lastUpdated: 'Última actualización: 22 de julio de 2026',
+    lastUpdated: 'Última actualización: 30 de septiembre de 2026',
     intro:
       'Estos Términos regulan el acceso y uso de Smart Setter AI (el "Servicio"), operado por Pedro Irurzun, empresario individual con domicilio en Zúrich, Suiza. Al crear una cuenta o usar el Servicio, el negocio o la persona que lo hace ("Cliente", "tú") acepta estos Términos.',
     sections: [
@@ -65,6 +65,7 @@ const es: LegalContent = {
         body: [
           'El Servicio permite al Cliente:',
           '- Conectar una cuenta profesional/empresarial de Instagram directamente (Instagram Login).',
+          '- Conectar, de forma opcional y cuando esté habilitado para su cuenta, un número de WhatsApp Business a través de la plataforma oficial de Meta (WhatsApp Business Platform), para recibir y responder mensajes y gestionar plantillas de mensaje.',
           '- Configurar agentes de IA que responden automáticamente a comentarios, mensajes directos y respuestas a historias.',
           '- Configurar palabras clave que activan respuestas automáticas en comentarios.',
           '- Programar mensajes de seguimiento y, opcionalmente, conectar Calendly para reservar citas.',
@@ -171,9 +172,9 @@ const es: LegalContent = {
   },
   privacy: {
     title: 'Política de privacidad',
-    lastUpdated: 'Última actualización: 22 de julio de 2026',
+    lastUpdated: 'Última actualización: 30 de septiembre de 2026',
     intro:
-      'Esta política explica qué datos personales tratamos, por qué, con quién los compartimos y qué derechos tienes, ya seas visitante de esta web, un Cliente de Smart Setter AI, o un Lead (alguien que escribe a un Cliente por Instagram).',
+      'Esta política explica qué datos personales tratamos, por qué, con quién los compartimos y qué derechos tienes, ya seas visitante de esta web, un Cliente de Smart Setter AI, o un Lead (alguien que escribe a un Cliente por Instagram o WhatsApp).',
     sections: [
       {
         heading: '1. Quiénes somos',
@@ -188,7 +189,7 @@ const es: LegalContent = {
         heading: '2. Nuestro papel: responsable vs. encargado del tratamiento',
         body: [
           'Sobre los datos de esta web y de la propia cuenta del Cliente en el Servicio, actuamos como responsables del tratamiento.',
-          'Sobre los datos de los Leads (las personas que escriben al Cliente por Instagram), el Cliente es el responsable del tratamiento y nosotros actuamos como encargados: solo tratamos esos datos siguiendo sus instrucciones, para prestar el Servicio.',
+          'Sobre los datos de los Leads (las personas que escriben al Cliente por Instagram o WhatsApp), el Cliente es el responsable del tratamiento y nosotros actuamos como encargados: solo tratamos esos datos siguiendo sus instrucciones, para prestar el Servicio.',
         ],
       },
       {
@@ -203,6 +204,7 @@ const es: LegalContent = {
         body: [
           'Cuenta y negocio del Cliente: email, nombre, contraseña (cifrada), configuración del negocio (oferta, tono, horarios, reglas de escalado) y documentos que subas para la base de conocimiento de IA.',
           'Datos de Instagram (vía la API de Meta): identificadores y token OAuth de tu cuenta; y de cada Lead que te escribe, su identificador y nombre de usuario de Instagram, el contenido de mensajes/comentarios/respuestas a historias, y adjuntos.',
+          'Datos de WhatsApp (vía la WhatsApp Business Platform de Meta, cuando el Cliente lo activa): identificadores de tu cuenta de WhatsApp Business y de tu número, su nombre visible y las credenciales de acceso necesarias para enviar mensajes en tu nombre; y de cada Lead que escribe a ese número, su número de teléfono de WhatsApp y el nombre de su perfil, el contenido de los mensajes intercambiados, sus reacciones y el estado de entrega. También las plantillas de mensaje del Cliente. Los adjuntos recibidos por WhatsApp no se descargan ni se almacenan: solo queda constancia de que se recibieron.',
           'Datos de agendamiento (vía Calendly, opcional): nombre y email del invitado, hora de la cita.',
           'Datos generados por IA: puntuación e interés del lead, resumen de conversación, informes de calidad/objeciones.',
           'Datos técnicos: logs de error (identificadores técnicos, códigos de estado) y contadores de uso de API para facturación — sin contenido de mensajes.',
@@ -229,6 +231,7 @@ const es: LegalContent = {
         heading: '7. Con quién compartimos los datos',
         body: [
           '- Meta / Instagram: tokens OAuth y contenido de mensajes, para enviar/recibir mensajes, comentarios y respuestas a historias.',
+          '- Meta / WhatsApp Business Platform: credenciales de acceso, número de WhatsApp del Lead, contenido de mensajes y plantillas, para enviar/recibir mensajes de WhatsApp y gestionar las plantillas del Cliente.',
           '- Anthropic (API de Claude), EEUU: historial de conversación, datos de perfil del Lead y configuración del negocio, para generar las respuestas del agente de IA.',
           '- OpenAI, EEUU: texto de documentos subidos y consultas de búsqueda derivadas de conversaciones, para generar embeddings de búsqueda (RAG).',
           '- Calendly, EEUU: nombre y email del invitado, horarios, para agendar citas cuando el Cliente activa esta función.',
@@ -255,6 +258,7 @@ const es: LegalContent = {
         heading: '10. Borrado de datos y tus derechos',
         body: [
           'Si eres un Lead y quieres que se borren tus datos: revoca el acceso de Smart Setter AI desde tu configuración de Instagram/Facebook (Meta nos notificará y borraremos tus datos en cualquier negocio de la plataforma con el que hayas interactuado); o contacta directamente con el negocio al que escribiste; o escríbenos indicando la cuenta de Instagram en cuestión.',
+          'Si eres un Lead que ha escrito a un Cliente por WhatsApp y quieres que se borren tus datos: contacta directamente con ese negocio, o escríbenos a privacy@aiassistant-bots.ch indicando el número de teléfono en cuestión y tramitaremos tu solicitud con el negocio.',
           'Si eres un Cliente, puedes borrar los datos de un Lead concreto desde tu panel, y solicitar el borrado de toda tu cuenta contactándonos.',
           `Según tu ubicación, puedes tener derechos de acceso, rectificación, limitación o portabilidad de tus datos, de oposición a determinados tratamientos, y de reclamación ante una autoridad de control — en Suiza, el IFPDT/FDPIC; en la UE, tu autoridad local. Contacta con ${OWNER.es.email}.`,
         ],
@@ -333,7 +337,7 @@ const es: LegalContent = {
 const en: LegalContent = {
   terms: {
     title: 'Terms of Service',
-    lastUpdated: 'Last updated: July 22, 2026',
+    lastUpdated: 'Last updated: September 30, 2026',
     intro:
       'These Terms govern access to and use of Smart Setter AI (the "Service"), operated by Pedro Irurzun, an individual entrepreneur based in Zurich, Switzerland. By creating an account or using the Service, the business or individual doing so ("Client", "you") agrees to these Terms.',
     sections: [
@@ -348,6 +352,7 @@ const en: LegalContent = {
         body: [
           'The Service allows the Client to:',
           '- Connect an Instagram professional/business account directly (Instagram Login).',
+          '- Optionally, where enabled for their account, connect a WhatsApp Business number through Meta\'s official WhatsApp Business Platform, to receive and reply to messages and manage message templates.',
           '- Configure AI agents that automatically reply to comments, direct messages, and story replies.',
           '- Configure keyword triggers for automated comment replies.',
           '- Schedule follow-up messages and, optionally, connect Calendly to book appointments.',
@@ -454,9 +459,9 @@ const en: LegalContent = {
   },
   privacy: {
     title: 'Privacy Policy',
-    lastUpdated: 'Last updated: July 22, 2026',
+    lastUpdated: 'Last updated: September 30, 2026',
     intro:
-      'This policy explains what personal data we process, why, with whom we share it, and what rights are available to you — whether you are a visitor to this website, a Client of Smart Setter AI, or a Lead (someone who messages a Client on Instagram).',
+      'This policy explains what personal data we process, why, with whom we share it, and what rights are available to you — whether you are a visitor to this website, a Client of Smart Setter AI, or a Lead (someone who messages a Client on Instagram or WhatsApp).',
     sections: [
       {
         heading: '1. Who we are',
@@ -471,7 +476,7 @@ const en: LegalContent = {
         heading: '2. Our role: controller vs. processor',
         body: [
           'For data about this website and the Client\'s own account within the Service, we act as data controller.',
-          'For data about Leads (the people who write to the Client on Instagram), the Client is the data controller and we act as its processor — we process this data only on the Client\'s instructions, to provide the Service.',
+          'For data about Leads (the people who write to the Client on Instagram or WhatsApp), the Client is the data controller and we act as its processor — we process this data only on the Client\'s instructions, to provide the Service.',
         ],
       },
       {
@@ -486,6 +491,7 @@ const en: LegalContent = {
         body: [
           'Client account & business data: email, name, password (hashed), business configuration (offer, tone, hours, escalation rules), and documents you upload for the AI knowledge base.',
           'Instagram data (via Meta\'s API): your account identifiers and OAuth token; and for each Lead who messages you, their Instagram user ID and username, the content of messages/comments/story replies, and attachments.',
+          'WhatsApp data (via Meta\'s WhatsApp Business Platform, when the Client enables it): your WhatsApp Business Account and phone number identifiers, the number\'s display name, and the access credentials needed to send messages on your behalf; and for each Lead who messages that number, their WhatsApp phone number and profile name, the content of the messages exchanged, reactions and delivery status. Also the Client\'s message templates. Attachments received over WhatsApp are not downloaded or stored: we only record that they were received.',
           'Scheduling data (via Calendly, optional): invitee name and email, appointment time.',
           'AI-generated data: lead score and interest assessment, conversation summary, quality/objection reports.',
           'Technical data: error logs (technical IDs, status codes) and API usage counters for billing — no message content.',
@@ -512,6 +518,7 @@ const en: LegalContent = {
         heading: '7. Who we share data with',
         body: [
           '- Meta / Instagram: OAuth tokens and message content, to send/receive Instagram messages, comments, and story replies.',
+          '- Meta / WhatsApp Business Platform: access credentials, the Lead\'s WhatsApp number, message content and message templates, to send/receive WhatsApp messages and manage the Client\'s templates.',
           '- Anthropic (Claude API), USA: conversation history, Lead profile data, and business configuration, to generate the AI agent\'s replies.',
           '- OpenAI, USA: text of uploaded documents and search queries derived from conversations, to generate embeddings for knowledge-base search (RAG).',
           '- Calendly, USA: invitee name and email, appointment times, to schedule meetings when the Client enables this feature.',
@@ -538,6 +545,7 @@ const en: LegalContent = {
         heading: '10. Deletion of data & your rights',
         body: [
           'If you are a Lead and want your data deleted: revoke Smart Setter AI\'s access from your Instagram/Facebook settings (Meta will notify us, and we will delete your data across any business on our platform you\'ve interacted with); or contact the business you messaged directly; or email us with the Instagram handle in question.',
+          'If you are a Lead who has messaged a Client on WhatsApp and want your data deleted: contact that business directly, or email us at privacy@aiassistant-bots.ch with the phone number in question and we will process your request with the business concerned.',
           'If you are a Client, you can delete an individual Lead\'s data from your dashboard, and request deletion of your entire account by contacting us.',
           `Depending on your location, you may have rights to access, correct, restrict, or port your data, object to certain processing, and lodge a complaint with a supervisory authority — in Switzerland, the FDPIC; in the EU, your local authority. Contact ${OWNER.en.email}.`,
         ],
@@ -616,7 +624,7 @@ const en: LegalContent = {
 const fr: LegalContent = {
   terms: {
     title: "Conditions d'utilisation",
-    lastUpdated: 'Dernière mise à jour : 22 juillet 2026',
+    lastUpdated: 'Dernière mise à jour : 30 septembre 2026',
     intro:
       "Les présentes Conditions régissent l'accès à Smart Setter AI (le « Service ») et son utilisation, exploité par Pedro Irurzun, entrepreneur individuel basé à Zurich, Suisse. En créant un compte ou en utilisant le Service, l'entreprise ou la personne qui le fait (le « Client », « vous ») accepte les présentes Conditions.",
     sections: [
@@ -631,6 +639,7 @@ const fr: LegalContent = {
         body: [
           'Le Service permet au Client de :',
           '- Connecter un compte professionnel Instagram directement (Instagram Login).',
+          '- Connecter, en option et lorsque cela est activé pour son compte, un numéro WhatsApp Business via la plateforme officielle de Meta (WhatsApp Business Platform), pour recevoir des messages, y répondre et gérer des modèles de message.',
           "- Configurer des agents d'IA qui répondent automatiquement aux commentaires, messages directs et réponses aux stories.",
           '- Configurer des mots-clés déclenchant des réponses automatiques aux commentaires.',
           '- Planifier des relances et, en option, connecter Calendly pour réserver des rendez-vous.',
@@ -735,9 +744,9 @@ const fr: LegalContent = {
   },
   privacy: {
     title: 'Politique de confidentialité',
-    lastUpdated: 'Dernière mise à jour : 22 juillet 2026',
+    lastUpdated: 'Dernière mise à jour : 30 septembre 2026',
     intro:
-      'Cette politique explique quelles données personnelles nous traitons, pourquoi, avec qui nous les partageons, et vos droits — que vous soyez visiteur de ce site, Client de Smart Setter AI, ou Prospect (une personne qui écrit à un Client sur Instagram).',
+      'Cette politique explique quelles données personnelles nous traitons, pourquoi, avec qui nous les partageons, et vos droits — que vous soyez visiteur de ce site, Client de Smart Setter AI, ou Prospect (une personne qui écrit à un Client sur Instagram ou WhatsApp).',
     sections: [
       {
         heading: '1. Qui sommes-nous',
@@ -767,6 +776,7 @@ const fr: LegalContent = {
         body: [
           "Compte et entreprise du Client : e-mail, nom, mot de passe (haché), configuration de l'entreprise, documents téléversés pour la base de connaissances.",
           "Données Instagram (via l'API Meta) : identifiants et jeton OAuth de votre compte ; pour chaque Prospect, son identifiant et nom d'utilisateur Instagram, le contenu des messages/commentaires/réponses aux stories, et les pièces jointes.",
+          'Données WhatsApp (via la WhatsApp Business Platform de Meta, lorsque le Client l\'active) : identifiants de votre compte WhatsApp Business et de votre numéro, son nom affiché et les identifiants d\'accès nécessaires pour envoyer des messages en votre nom ; pour chaque Prospect qui écrit à ce numéro, son numéro de téléphone WhatsApp et son nom de profil, le contenu des messages échangés, les réactions et le statut de livraison. Également les modèles de message du Client. Les pièces jointes reçues par WhatsApp ne sont ni téléchargées ni stockées.',
           "Données de rendez-vous (via Calendly, facultatif) : nom et e-mail de l'invité, horaire du rendez-vous.",
           "Données générées par l'IA : score du prospect, résumé de conversation, rapports de qualité/objections.",
           "Données techniques : journaux d'erreurs et compteurs d'utilisation de l'API pour la facturation — sans contenu de message.",
@@ -793,6 +803,7 @@ const fr: LegalContent = {
         heading: '7. Avec qui nous partageons les données',
         body: [
           '- Meta / Instagram : jetons OAuth et contenu des messages.',
+          '- Meta / WhatsApp Business Platform : identifiants d\'accès, numéro WhatsApp du Prospect, contenu des messages et modèles de message.',
           "- Anthropic (API Claude), États-Unis : historique de conversation et données de profil, pour générer les réponses de l'agent.",
           '- OpenAI, États-Unis : texte des documents et requêtes de recherche, pour les embeddings RAG.',
           "- Calendly, États-Unis : nom et e-mail de l'invité, pour la prise de rendez-vous.",
@@ -819,6 +830,7 @@ const fr: LegalContent = {
         heading: '10. Suppression des données et vos droits',
         body: [
           "Si vous êtes un Prospect : révoquez l'accès depuis vos paramètres Instagram/Facebook, ou contactez l'entreprise concernée, ou écrivez-nous.",
+          'Si vous avez écrit à un Client sur WhatsApp : contactez cette entreprise, ou écrivez-nous à privacy@aiassistant-bots.ch en indiquant le numéro de téléphone concerné.',
           'Si vous êtes un Client : supprimez un Prospect depuis votre tableau de bord, ou demandez la suppression de votre compte.',
           `Selon votre lieu de résidence, vous disposez de droits d'accès, de rectification, de suppression, etc. — contactez ${OWNER.fr.email}.`,
         ],
@@ -889,7 +901,7 @@ const fr: LegalContent = {
 const de: LegalContent = {
   terms: {
     title: 'Nutzungsbedingungen',
-    lastUpdated: 'Zuletzt aktualisiert: 22. Juli 2026',
+    lastUpdated: 'Zuletzt aktualisiert: 30. September 2026',
     intro:
       'Diese Bedingungen regeln den Zugang zu und die Nutzung von Smart Setter AI (der „Dienst"), betrieben von Pedro Irurzun, Einzelunternehmer mit Sitz in Zürich, Schweiz. Durch die Erstellung eines Kontos oder die Nutzung des Dienstes akzeptiert das Unternehmen bzw. die Person (der „Kunde", „Sie") diese Bedingungen.',
     sections: [
@@ -904,6 +916,7 @@ const de: LegalContent = {
         body: [
           'Der Dienst ermöglicht dem Kunden:',
           '- Ein professionelles Instagram-Konto direkt zu verbinden (Instagram Login).',
+          '- Optional, sofern für sein Konto freigeschaltet, eine WhatsApp-Business-Nummer über die offizielle WhatsApp Business Platform von Meta zu verbinden, um Nachrichten zu empfangen, zu beantworten und Nachrichtenvorlagen zu verwalten.',
           '- KI-Agenten zu konfigurieren, die automatisch auf Kommentare, Direktnachrichten und Story-Antworten reagieren.',
           '- Schlüsselwörter für automatische Kommentarantworten zu konfigurieren.',
           '- Follow-ups zu planen und optional Calendly für Terminbuchungen zu verbinden.',
@@ -990,7 +1003,7 @@ const de: LegalContent = {
   },
   privacy: {
     title: 'Datenschutzerklärung',
-    lastUpdated: 'Zuletzt aktualisiert: 22. Juli 2026',
+    lastUpdated: 'Zuletzt aktualisiert: 30. September 2026',
     intro:
       'Diese Erklärung beschreibt, welche personenbezogenen Daten wir verarbeiten, warum, mit wem wir sie teilen und welche Rechte Ihnen zustehen — ob Sie Besucher dieser Website, Kunde von Smart Setter AI, oder ein Lead sind.',
     sections: [
@@ -1022,6 +1035,7 @@ const de: LegalContent = {
         body: [
           'Konto- und Unternehmensdaten: E-Mail, Name, Passwort (gehasht), Unternehmenskonfiguration, hochgeladene Dokumente.',
           'Instagram-Daten (über die Meta-API): Kontokennungen und OAuth-Token; für jeden Lead dessen Nutzer-ID/-name, Nachrichten-/Kommentarinhalt, Anhänge.',
+          'WhatsApp-Daten (über die WhatsApp Business Platform von Meta, sofern der Kunde sie aktiviert): Kennungen Ihres WhatsApp-Business-Kontos und Ihrer Nummer, deren Anzeigename und die Zugangsdaten, die zum Senden von Nachrichten in Ihrem Namen nötig sind; für jeden Lead, der an diese Nummer schreibt, dessen WhatsApp-Telefonnummer und Profilname, der Inhalt der ausgetauschten Nachrichten, Reaktionen und Zustellstatus. Ebenso die Nachrichtenvorlagen des Kunden. Über WhatsApp empfangene Anhänge werden weder heruntergeladen noch gespeichert.',
           'Terminplanungsdaten (Calendly, optional): Name und E-Mail des Eingeladenen, Termin.',
           'KI-generierte Daten: Lead-Bewertung, Konversationszusammenfassung, Qualitätsberichte.',
           'Technische Daten: Fehlerprotokolle und API-Nutzungszähler — ohne Nachrichteninhalt.',
@@ -1048,6 +1062,7 @@ const de: LegalContent = {
         heading: '7. Mit wem wir Daten teilen',
         body: [
           '- Meta / Instagram: OAuth-Tokens und Nachrichteninhalt.',
+          '- Meta / WhatsApp Business Platform: Zugangsdaten, WhatsApp-Nummer des Leads, Nachrichteninhalt und Nachrichtenvorlagen.',
           '- Anthropic (Claude API), USA: Konversationsverlauf und Profildaten, zur Antwortgenerierung.',
           '- OpenAI, USA: Dokumenttext und Suchanfragen, für RAG-Embeddings.',
           '- Calendly, USA: Name und E-Mail des Eingeladenen, für Terminbuchungen.',
@@ -1074,6 +1089,7 @@ const de: LegalContent = {
         heading: '10. Löschung von Daten und Ihre Rechte',
         body: [
           'Als Lead: Zugriff in den Instagram-/Facebook-Einstellungen widerrufen, das betreffende Unternehmen kontaktieren, oder uns schreiben.',
+          'Wenn Sie einem Kunden über WhatsApp geschrieben haben: kontaktieren Sie dieses Unternehmen oder schreiben Sie uns an privacy@aiassistant-bots.ch unter Angabe der betreffenden Telefonnummer.',
           'Als Kunde: einzelne Lead-Daten im Dashboard löschen oder die Löschung des gesamten Kontos beantragen.',
           `Je nach Wohnsitz haben Sie Rechte auf Auskunft, Berichtigung, Löschung usw. — kontaktieren Sie ${OWNER.de.email}.`,
         ],

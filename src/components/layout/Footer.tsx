@@ -103,8 +103,14 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border text-center text-muted-foreground text-sm">
-          {t.footer.copyright}
+        <div className="mt-12 pt-8 border-t border-border text-center text-muted-foreground text-sm space-y-2">
+          <p>
+            {t.footer.operator} {t.footer.contactLabel}:{' '}
+            <a href="mailto:privacy@aiassistant-bots.ch" className="hover:text-primary transition-colors">
+              privacy@aiassistant-bots.ch
+            </a>
+          </p>
+          <p>{t.footer.copyright}</p>
         </div>
       </div>
     </footer>
